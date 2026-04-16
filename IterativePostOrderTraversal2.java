@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class IterativePostOrderTraversal2
+class IterativePostOrderTraversal2    //Uses two Stack
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
