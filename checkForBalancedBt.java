@@ -24,15 +24,19 @@ class checkForBalancedBt
 	    root.right.right=new Node(7);
 	    
 	    System.out.println("Tree is Balanced Binary Tree -> "+ isBalancedBT(root));
+	    System.out.println("Tree is Balanced Binary Tree -> "+maxDepth(root)==-1 ? false:true);
 	    
 	}
 	
-	//Uses Recursion and formula as 1+max(left,right)
+	//Uses Recursion and formula as 1+max(left,right) + //For Balanced BT condition(every node) -> height(left)-height(right) <= 1
     public static int maxDepth(Node root){
         if(root==null) return 0;
         
         int lh=maxDepth(root.left);
         int rh=maxDepth(root.right);
+
+		if(lh==-1 && rh==-1) return -1;
+        if(Math.abs(rh-lh)>1) return -1;
         
         return 1+ Math.max(lh,rh);
     }
