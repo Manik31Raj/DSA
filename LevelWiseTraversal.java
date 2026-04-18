@@ -40,6 +40,17 @@ class LevelWiseTraversal            //BFS
                 if(queue.peek().right!=null) queue.offer(queue.peek().right);
                 subList.add(queue.poll().data);
             }
+
+			/*  FOR ZIG-ZAG PATTERN
+			 intintalize a int flag =0 ; (0 -> Lft-Rgt)(1 -> Rgt-Lft)
+			
+			if(flag==1){
+                Collections.reverse(subList);
+                flag=0;
+            }else{
+                flag=1;
+            } */
+			
             wrapList.add(subList);
         }
         return wrapList;
