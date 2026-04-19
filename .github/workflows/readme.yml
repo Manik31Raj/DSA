@@ -1,0 +1,38 @@
+```yaml
+name: Auto Update README
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Compile script
+        run: javac GenerateReadme.java
+
+      - name: Run script
+        run: java GenerateReadme
+
+      - name: Commit README
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-update README" || echo "No changes"
+          git push
+```
