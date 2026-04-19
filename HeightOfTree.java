@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class HeightOfTree
+class HeightOfTree    //Depth
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
