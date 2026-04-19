@@ -27,7 +27,7 @@ class HeightOfTree
 	    
 	}
 	
-	// Uses Recursion and formula as 1+max(left,right)
+	//Uses Recursion and formula as 1+max(left,right)
     public static int maxDepth(Node root){
         if(root==null) return 0;
         
