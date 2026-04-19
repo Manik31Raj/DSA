@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class LevelWiseTraversal            //BFS
+class LevelWiseTraversal            //BFS List<list<Integer>>
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
