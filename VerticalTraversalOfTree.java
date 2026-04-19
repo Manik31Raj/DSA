@@ -22,7 +22,7 @@ class Tuple{
     }
 }
 
-class VericalTraversalWithTopAndBottomView         
+class VerticalTraversalOfTree         
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -34,15 +34,11 @@ class VericalTraversalWithTopAndBottomView
 	    root.right.left=new Node(6);
 	    root.right.right=new Node(7);
 	    
-	    System.out.println("vertcalTraversal -> "+printVerticalTraversal(root));
-	    
-	    System.out.println("Top-View         -> "+printTopView(root));
-	    
-	    System.out.println("BOttom-View      -> "+printBottomView(root));
+	    System.out.println("vertcalTraversal -> "+verticalTraversal(root));
 	    
 	}
 	
-	public static TreeMap<Integer,TreeMap<Integer,PriorityQueue<Integer>>> vertcalTraversal(Node root){
+	public static List<List<Integer>> verticalTraversal(Node root){
 	    
 	    TreeMap<Integer,TreeMap<Integer,PriorityQueue<Integer>>> map=new TreeMap<>();
 	    //Used pQueue as if 2 or more nodes at same position keeps it sorted 
@@ -79,17 +75,7 @@ class VericalTraversalWithTopAndBottomView
 	            q.offer(new Tuple(node.right,x+1,y+1));
 	        }
 	    }
-	    return map;
-	        
-	}
-	
-	
-	public static List<List<Integer>> printVerticalTraversal(Node root){
-	    
-	        
-	        TreeMap<Integer,TreeMap<Integer,PriorityQueue<Integer>>> map=vertcalTraversal(root);
-	        
-	       	List<List<Integer>> list=new ArrayList<>();
+	    List<List<Integer>> list=new ArrayList<>();
 	        for(TreeMap<Integer,PriorityQueue<Integer>> ys:map.values()){
 	            list.add(new ArrayList<>());
 	            for(PriorityQueue<Integer> nodes:ys.values()){
@@ -102,57 +88,5 @@ class VericalTraversalWithTopAndBottomView
 	        return list;
 	}
 	
-	//print all first element of pQueue from vertical travrsal
-	public static List<Integer> printTopView(Node root){
-    
-    Map<Integer,Integer> map = new TreeMap<>();
-    Queue<Tuple> q = new LinkedList<>();
-    
-    q.offer(new Tuple(root,0,0));
-    
-    while(!q.isEmpty()){
-        Tuple t = q.poll();
-        
-        // first time we see this vertical
-        if(!map.containsKey(t.row)){
-            map.put(t.row, t.node.data);
-        }
-        
-        if(t.node.left != null){
-            q.offer(new Tuple(t.node.left, t.row-1, t.col+1));
-        }
-        
-        if(t.node.right != null){
-            q.offer(new Tuple(t.node.right, t.row+1, t.col+1));
-        }
-    }
-    
-    return new ArrayList<>(map.values());
 }
-	
-	//print all last element of pQueue from vertical travrsal
-public static List<Integer> printBottomView(Node root){
-    
-    Map<Integer,Integer> map = new TreeMap<>();
-    Queue<Tuple> q = new LinkedList<>();
-    
-    q.offer(new Tuple(root,0,0));
-    
-    while(!q.isEmpty()){
-        Tuple t = q.poll();
-        
-        // overwrite every time → last seen = bottom
-        map.put(t.row, t.node.data);
-        
-        if(t.node.left != null){
-            q.offer(new Tuple(t.node.left, t.row-1, t.col+1));
-        }
-        
-        if(t.node.right != null){
-            q.offer(new Tuple(t.node.right, t.row+1, t.col+1));
-        }
-    }
-    
-    return new ArrayList<>(map.values());
- }  
-}	
+
