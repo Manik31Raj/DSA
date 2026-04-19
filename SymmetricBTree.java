@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class SymmetricBTree        
+class SymmetricBTree           //Mirror
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
