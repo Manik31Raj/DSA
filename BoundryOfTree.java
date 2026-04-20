@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class BoundryOfTree           
+class BoundryOfTree           //Boundary i.e outer nodes
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
