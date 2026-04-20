@@ -2,6 +2,12 @@
 
 Auto-generated index of problems (Java).
 
+## 📂 STACK
+
+| Problem | Code |
+|--------|------|
+| StackUsingArray | [View Code](./STACK/StackUsingArray.java) |
+
 ## 📂 TREE
 
 | Problem | Code |
