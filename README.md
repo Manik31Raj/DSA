@@ -13,6 +13,7 @@ Auto-generated index of problems (Java).
 | HeightOfTree | [View Code](./TREE/HeightOfTree.java) |
 | IterativeInOrderTraversal | [View Code](./TREE/IterativeInOrderTraversal.java) |
 | IterativePostOrderTraversal | [View Code](./TREE/IterativePostOrderTraversal.java) |
+| IterativePostOrderTraversal2 | [View Code](./TREE/IterativePostOrderTraversal2.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
