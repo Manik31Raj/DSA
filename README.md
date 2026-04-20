@@ -19,6 +19,7 @@ Auto-generated index of problems (Java).
 | MaximumPathSumOfBinaryTree | [View Code](./TREE/MaximumPathSumOfBinaryTree.java) |
 | RightAndLeftView | [View Code](./TREE/RightAndLeftView.java) |
 | RootToNode | [View Code](./TREE/RootToNode.java) |
+| SameTreeOrNot | [View Code](./TREE/SameTreeOrNot.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
