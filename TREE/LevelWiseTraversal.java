@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class LevelWiseTraversal            //BFS List<list<Integer>>
+class LevelWiseTraversal            //BFS it would print level wise node (left ->  right)
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
