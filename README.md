@@ -17,6 +17,7 @@ Auto-generated index of problems (Java).
 | IterativePreOrderTraversal | [View Code](./TREE/IterativePreOrderTraversal.java) |
 | LevelWiseTraversal | [View Code](./TREE/LevelWiseTraversal.java) |
 | MaximumPathSumOfBinaryTree | [View Code](./TREE/MaximumPathSumOfBinaryTree.java) |
+| RightAndLeftView | [View Code](./TREE/RightAndLeftView.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
