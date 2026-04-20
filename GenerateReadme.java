@@ -20,7 +20,7 @@ public class GenerateReadme {
             String name = dir.getName();
 
             // skip system folders
-            if (name.startsWith(".") || name.equals("node_modules")) continue;
+            if (name.startsWith(".") || name.equals("node_modules") || name.equals(".github")) continue;
 
             File[] files = dir.listFiles((d, f) -> f.endsWith(".java"));
             if (files == null || files.length == 0) continue;
@@ -28,19 +28,32 @@ public class GenerateReadme {
             Arrays.sort(files, Comparator.comparing(File::getName));
 
             md.append("## 📂 ").append(name).append("\n\n");
-            md.append("| Problem | Code |\n");
-            md.append("|--------|------|\n");
+            md.append("| Problem | Code | Explanation |\n");
+            md.append("|--------|------|------------|\n");
 
             for (File f : files) {
                 String problem = f.getName().replace(".java", "");
                 String path = "./" + name + "/" + f.getName();
 
+                // check explanation file
+                File explanation = new File(dir, problem + ".md");
+
                 md.append("| ")
                   .append(problem)
-                  .append(" | [View Code](")
+                  .append(" | [Code](")
                   .append(path)
-                  .append(") |\n");
+                  .append(") | ");
+
+                if (explanation.exists()) {
+                    String expPath = "./" + name + "/" + problem + ".md";
+                    md.append("[Notes](").append(expPath).append(")");
+                } else {
+                    md.append("—");
+                }
+
+                md.append(" |\n"); // ✅ end row correctly
             }
+
             md.append("\n");
         }
 
