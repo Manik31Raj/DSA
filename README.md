@@ -12,6 +12,7 @@ Auto-generated index of problems (Java).
 | DiameterOfBinaryTree | [View Code](./TREE/DiameterOfBinaryTree.java) |
 | HeightOfTree | [View Code](./TREE/HeightOfTree.java) |
 | IterativeInOrderTraversal | [View Code](./TREE/IterativeInOrderTraversal.java) |
+| IterativePostOrderTraversal | [View Code](./TREE/IterativePostOrderTraversal.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
