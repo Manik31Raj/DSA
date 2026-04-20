@@ -8,6 +8,7 @@ Auto-generated index of problems (Java).
 |--------|------|
 | AllTraversalInSingleStack | [View Code](./TREE/AllTraversalInSingleStack.java) |
 | BottomView | [View Code](./TREE/BottomView.java) |
+| BoundryOfTree | [View Code](./TREE/BoundryOfTree.java) |
 | HeightOfTree | [View Code](./TREE/HeightOfTree.java) |
 
 ---
