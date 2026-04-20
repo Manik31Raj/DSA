@@ -30,6 +30,7 @@ Auto-generated index of problems (Java).
 | TopView | [View Code](./TREE/TopView.java) |
 | TreeWithTraversal | [View Code](./TREE/TreeWithTraversal.java) |
 | VerticalTraversalOfTree | [View Code](./TREE/VerticalTraversalOfTree.java) |
+| checkForBalancedBt | [View Code](./TREE/checkForBalancedBt.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
