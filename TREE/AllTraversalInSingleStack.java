@@ -11,6 +11,7 @@ class Node{
     }
 }
 
+// helper class → keeps track of node + its current state
 class Pair{
     Node node;
     int num;
@@ -35,6 +36,18 @@ class AllTraversalInSingleStack
 	    preInPostOrder(root);
 	    
 	}
+
+	/*
+     * Doing Preorder, Inorder and Postorder in ONE traversal
+     *
+     * Idea:
+     * instead of recursion, we simulate it using a stack
+     *
+     * num = 1 → first time seeing node → Preorder
+     * num = 2 → left done → Inorder
+     * num = 3 → right done → Postorder
+     */
+	
     public static void preInPostOrder(Node root){
         Stack<Pair> stack=new Stack<Pair>();
         stack.push(new Pair(root,1));    // push the root
