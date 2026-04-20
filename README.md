@@ -29,6 +29,7 @@ Auto-generated index of problems (Java).
 | SymmetricBTree | [View Code](./TREE/SymmetricBTree.java) |
 | TopView | [View Code](./TREE/TopView.java) |
 | TreeWithTraversal | [View Code](./TREE/TreeWithTraversal.java) |
+| VerticalTraversalOfTree | [View Code](./TREE/VerticalTraversalOfTree.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
