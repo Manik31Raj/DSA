@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class RootToNode         
+class RootToNode         //Path to a node from root
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
