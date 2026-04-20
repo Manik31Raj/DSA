@@ -15,6 +15,7 @@ Auto-generated index of problems (Java).
 | IterativePostOrderTraversal | [View Code](./TREE/IterativePostOrderTraversal.java) |
 | IterativePostOrderTraversal2 | [View Code](./TREE/IterativePostOrderTraversal2.java) |
 | IterativePreOrderTraversal | [View Code](./TREE/IterativePreOrderTraversal.java) |
+| LevelWiseTraversal | [View Code](./TREE/LevelWiseTraversal.java) |
 
 ---
 ⚡ Auto-generated on every push using GitHub Actions.
