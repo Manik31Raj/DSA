@@ -13,7 +13,7 @@ class Node{
 
 class Tuple{
     Node node;
-    int row; //vertical x axis
+    int row; //vertical x axis .
     int col; //level
     public Tuple(Node node,int row,int col){
         this.node=node;
