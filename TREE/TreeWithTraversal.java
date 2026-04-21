@@ -12,7 +12,7 @@ class Node{
     }
 }
 
-class TreeWithTraversal.
+class TreeWithTraversal
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
