@@ -17,6 +17,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) throws IOException {
 
+        System.out.println("🚀 SCRIPT STARTED");
+
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
 
@@ -44,8 +46,7 @@ public class GenerateReadme {
                 String problem = f.getName().replace(".java", "");
                 String code = new String(Files.readAllBytes(f.toPath()));
 
-                System.out.println("\n==============================");
-                System.out.println("Processing: " + problem);
+                System.out.println("\nProcessing: " + problem);
 
                 Meta meta = analyze(code);
 
@@ -75,7 +76,7 @@ public class GenerateReadme {
 
         Files.write(Paths.get("README.md"), md.toString().getBytes());
 
-        System.out.println("\n✅ README updated!");
+        System.out.println("\n✅ README UPDATED!");
     }
 
     // ================= GEMINI =================
@@ -93,9 +94,6 @@ public class GenerateReadme {
             String prompt = """
 Return ONLY valid JSON.
 
-NO explanation.
-
-Format:
 {"pattern":"...","difficulty":"...","tc":"..."}
 
 Code:
@@ -108,8 +106,8 @@ Code:
                     "}";
 
             URL url = new URL(
-                          "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=" + apiKey
-                    );
+                    "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=" + apiKey
+            );
 
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
@@ -138,7 +136,7 @@ Code:
                 res.append(line);
             }
 
-            System.out.println("🔥 RAW RESPONSE:");
+            System.out.println("🔥 RAW:");
             System.out.println(res.toString());
 
             if (status < 200 || status >= 300) {
@@ -157,7 +155,6 @@ Code:
             );
 
         } catch (Exception e) {
-            System.out.println("💥 EXCEPTION:");
             e.printStackTrace();
             return new Meta("Error", "Error", "Error");
         }
@@ -169,34 +166,29 @@ Code:
         return "\"" + s.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
-    // ✅ FIXED PARSER (main issue solved)
-   static String extract(String json) {
-    try {
-        // Find "text":"..."
-        int start = json.indexOf("\"text\":\"");
-        if (start == -1) return "";
+    static String extract(String json) {
+        try {
+            int start = json.indexOf("\"text\":\"");
+            if (start == -1) return "";
 
-        start += 8;
+            start += 8;
 
-        StringBuilder result = new StringBuilder();
+            StringBuilder result = new StringBuilder();
 
-        for (int i = start; i < json.length(); i++) {
-            char c = json.charAt(i);
+            for (int i = start; i < json.length(); i++) {
+                char c = json.charAt(i);
+                if (c == '"' && json.charAt(i - 1) != '\\') break;
+                result.append(c);
+            }
 
-            // stop at unescaped quote
-            if (c == '"' && json.charAt(i - 1) != '\\') break;
+            return result.toString()
+                    .replace("\\n", "\n")
+                    .replace("\\\"", "\"");
 
-            result.append(c);
+        } catch (Exception e) {
+            return "";
         }
-
-        return result.toString()
-                .replace("\\n", "\n")
-                .replace("\\\"", "\"");
-
-    } catch (Exception e) {
-        return "";
     }
-}
 
     static String get(String json, String key) {
         int i = json.indexOf("\"" + key + "\"");
