@@ -25,7 +25,7 @@ Auto-generated index of problems (Java).
 | MaximumPathSumOfBinaryTree | [Code](./TREE/MaximumPathSumOfBinaryTree.java) | [Notes](./TREE/MaximumPathSumOfBinaryTree.md) |
 | RightAndLeftView | [Code](./TREE/RightAndLeftView.java) | — |
 | RootToNode | [Code](./TREE/RootToNode.java) | — |
-| SameTreeOrNot | [Code](./TREE/SameTreeOrNot.java) | — |
+| SameTreeOrNot | [Code](./TREE/SameTreeOrNot.java) | [Notes](./TREE/SameTreeOrNot.md) |
 | SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | [Notes](./TREE/SymmetricBTree.md) |
 | TopView | [Code](./TREE/TopView.java) | — |
 | TreeWithTraversal | [Code](./TREE/TreeWithTraversal.java) | [Notes](./TREE/TreeWithTraversal.md) |
