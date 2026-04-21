@@ -15,7 +15,7 @@ Auto-generated index of problems (Java).
 | AllTraversalInSingleStack | [Code](./TREE/AllTraversalInSingleStack.java) | [Notes](./TREE/AllTraversalInSingleStack.md) |
 | BottomView | [Code](./TREE/BottomView.java) | — |
 | BoundryOfTree | [Code](./TREE/BoundryOfTree.java) | — |
-| DiameterOfBinaryTree | [Code](./TREE/DiameterOfBinaryTree.java) | — |
+| DiameterOfBinaryTree | [Code](./TREE/DiameterOfBinaryTree.java) | [Notes](./TREE/DiameterOfBinaryTree.md) |
 | HeightOfTree | [Code](./TREE/HeightOfTree.java) | — |
 | IterativeInOrderTraversal | [Code](./TREE/IterativeInOrderTraversal.java) | — |
 | IterativePostOrderTraversal | [Code](./TREE/IterativePostOrderTraversal.java) | — |
