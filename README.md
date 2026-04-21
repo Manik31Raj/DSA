@@ -21,7 +21,7 @@ Auto-generated index of problems (Java).
 | IterativePostOrderTraversal | [Code](./TREE/IterativePostOrderTraversal.java) | — |
 | IterativePostOrderTraversal2 | [Code](./TREE/IterativePostOrderTraversal2.java) | — |
 | IterativePreOrderTraversal | [Code](./TREE/IterativePreOrderTraversal.java) | — |
-| LevelWiseTraversal | [Code](./TREE/LevelWiseTraversal.java) | — |
+| LevelWiseTraversal | [Code](./TREE/LevelWiseTraversal.java) | [Notes](./TREE/LevelWiseTraversal.md) |
 | MaximumPathSumOfBinaryTree | [Code](./TREE/MaximumPathSumOfBinaryTree.java) | — |
 | RightAndLeftView | [Code](./TREE/RightAndLeftView.java) | — |
 | RootToNode | [Code](./TREE/RootToNode.java) | — |
