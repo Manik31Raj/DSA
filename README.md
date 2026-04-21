@@ -19,7 +19,7 @@ Auto-generated index of problems (Java).
 | HeightOfTree | [Code](./TREE/HeightOfTree.java) | — |
 | IterativeInOrderTraversal | [Code](./TREE/IterativeInOrderTraversal.java) | [Notes](./TREE/IterativeInOrderTraversal.md) |
 | IterativePostOrderTraversal | [Code](./TREE/IterativePostOrderTraversal.java) | [Notes](./TREE/IterativePostOrderTraversal.md) |
-| IterativePostOrderTraversal2 | [Code](./TREE/IterativePostOrderTraversal2.java) | — |
+| IterativePostOrderTraversal2 | [Code](./TREE/IterativePostOrderTraversal2.java) | [Notes](./TREE/IterativePostOrderTraversal2.md) |
 | IterativePreOrderTraversal | [Code](./TREE/IterativePreOrderTraversal.java) | — |
 | LevelWiseTraversal | [Code](./TREE/LevelWiseTraversal.java) | [Notes](./TREE/LevelWiseTraversal.md) |
 | MaximumPathSumOfBinaryTree | [Code](./TREE/MaximumPathSumOfBinaryTree.java) | — |
