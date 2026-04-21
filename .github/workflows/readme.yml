@@ -23,11 +23,12 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Compile script
+      - name: Compile
         run: javac GenerateReadme.java
 
       - name: Run script
-        run: java GenerateReadme
+        run: |
+          java GenerateReadme
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
