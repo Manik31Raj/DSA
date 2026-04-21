@@ -5,7 +5,7 @@ import java.util.*;
 
 public class GenerateReadme {
 
-    // ================= META CLASS =================
+    // ================= META =================
     static class Meta {
         String pattern, difficulty, tc;
 
@@ -87,44 +87,48 @@ public class GenerateReadme {
 
         Files.write(Paths.get("README.md"), md.toString().getBytes());
 
-        System.out.println("README.md updated!");
+        System.out.println("✅ README updated!");
     }
 
-    // ================= AI ANALYZER =================
+    // ================= GEMINI AI =================
 
     public static Meta analyzeCode(String code) {
-
         try {
-            String apiKey = System.getenv("OPENAI_API_KEY");
+            String apiKey = System.getenv("GEMINI_API_KEY");
 
             if (apiKey == null || apiKey.isEmpty()) {
-                System.out.println("❌ API KEY MISSING");
+                System.out.println("❌ GEMINI KEY MISSING");
                 return new Meta("Unknown", "Unknown", "Unknown");
             }
 
             String prompt = """
 You MUST return ONLY valid JSON.
 
-NO text before or after.
-
 Format:
 {"pattern":"...","difficulty":"...","tc":"..."}
+
+Rules:
+- pattern: short (DFS, BFS, Stack, Tree DP)
+- difficulty: Easy/Medium/Hard
+- tc: Big-O notation
+- NO explanation
 
 Code:
 """ + code;
 
             String requestBody = "{\n" +
-                    "\"model\": \"gpt-5.3\",\n" +
-                    "\"messages\": [\n" +
-                    "  {\"role\": \"user\", \"content\": " + escape(prompt) + "}\n" +
-                    "]\n" +
+                    "\"contents\": [{\n" +
+                    "  \"parts\": [{\"text\": " + escape(prompt) + "}]\n" +
+                    "}]\n" +
                     "}";
 
-            URL url = new URL("https://api.openai.com/v1/chat/completions");
+            URL url = new URL(
+                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + apiKey
+            );
+
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
             conn.setRequestMethod("POST");
-            conn.setRequestProperty("Authorization", "Bearer " + apiKey);
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setDoOutput(true);
 
@@ -142,11 +146,11 @@ Code:
                 response.append(line);
             }
 
-            System.out.println("🔥 RAW RESPONSE: " + response.toString());
+            System.out.println("🔥 GEMINI RAW: " + response);
 
-            String content = extractContent(response.toString());
+            String content = extractGeminiContent(response.toString());
 
-            System.out.println("✅ EXTRACTED CONTENT: " + content);
+            System.out.println("✅ GEMINI TEXT: " + content);
 
             return new Meta(
                     extractField(content, "pattern"),
@@ -166,15 +170,14 @@ Code:
         return "\"" + text.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
-    // FIXED VERSION (IMPORTANT)
-    private static String extractContent(String json) {
+    private static String extractGeminiContent(String json) {
         try {
-            int start = json.indexOf("\"content\":\"");
+            int start = json.indexOf("\"text\":\"");
             if (start == -1) return "";
 
-            start += 11;
+            start += 8;
 
-            int end = json.lastIndexOf("\"");
+            int end = json.indexOf("\"", start);
             String content = json.substring(start, end);
 
             return content.replace("\\n", "\n").replace("\\\"", "\"");
@@ -184,7 +187,6 @@ Code:
         }
     }
 
-    // FIXED VERSION (IMPORTANT)
     private static String extractField(String json, String key) {
         try {
             int i = json.indexOf("\"" + key + "\"");
