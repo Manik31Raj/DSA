@@ -6,7 +6,7 @@ Auto-generated index of problems (Java).
 
 | Problem | Code | Explanation |
 |--------|------|------------|
-| StackUsingArray | [Code](./STACK/StackUsingArray.java) | — |
+| StackUsingArray | [Code](./STACK/StackUsingArray.java) | [Notes](./STACK/StackUsingArray.md) |
 
 ## 📂 TREE
 
