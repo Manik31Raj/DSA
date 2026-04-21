@@ -22,7 +22,7 @@ class Tuple{
     }
 }
  
-class VerticalTraversalOfTree     
+class VerticalTraversalOfTree      //
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
