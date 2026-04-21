@@ -21,8 +21,8 @@ class Tuple{
         this.col=col;
     }
 }
-
-class VerticalTraversalOfTree         
+ 
+class VerticalTraversalOfTree     //    
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
