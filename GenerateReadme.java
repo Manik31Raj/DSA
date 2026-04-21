@@ -122,8 +122,9 @@ Code:
                     "}]\n" +
                     "}";
 
+            // ✅ FIXED MODEL
             URL url = new URL(
-                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + apiKey
+                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + apiKey
             );
 
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -136,8 +137,16 @@ Code:
                 os.write(requestBody.getBytes());
             }
 
-            BufferedReader br = new BufferedReader(
-                    new InputStreamReader(conn.getInputStream()));
+            int status = conn.getResponseCode();
+            System.out.println("🔎 RESPONSE CODE: " + status);
+
+            BufferedReader br;
+
+            if (status >= 200 && status < 300) {
+                br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+            } else {
+                br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
+            }
 
             StringBuilder response = new StringBuilder();
             String line;
@@ -150,7 +159,7 @@ Code:
 
             String content = extractGeminiContent(response.toString());
 
-            System.out.println("✅ GEMINI TEXT: " + content);
+            System.out.println("✅ EXTRACTED TEXT: " + content);
 
             return new Meta(
                     extractField(content, "pattern"),
@@ -170,17 +179,19 @@ Code:
         return "\"" + text.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
+    // ✅ FIXED PARSER
     private static String extractGeminiContent(String json) {
         try {
-            int start = json.indexOf("\"text\":\"");
+            String marker = "\"text\":\"";
+            int start = json.indexOf(marker);
             if (start == -1) return "";
 
-            start += 8;
+            start += marker.length();
 
             int end = json.indexOf("\"", start);
-            String content = json.substring(start, end);
-
-            return content.replace("\\n", "\n").replace("\\\"", "\"");
+            return json.substring(start, end)
+                    .replace("\\n", "\n")
+                    .replace("\\\"", "\"");
 
         } catch (Exception e) {
             return "";
