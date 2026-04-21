@@ -170,27 +170,33 @@ Code:
     }
 
     // ✅ FIXED PARSER (main issue solved)
-    static String extract(String json) {
-        try {
-            String marker = "\"text\":\"";
-            int start = json.indexOf(marker);
+   static String extract(String json) {
+    try {
+        // Find "text":"..."
+        int start = json.indexOf("\"text\":\"");
+        if (start == -1) return "";
 
-            if (start == -1) return "";
+        start += 8;
 
-            start += marker.length();
+        StringBuilder result = new StringBuilder();
 
-            int end = json.lastIndexOf("\"");  // <-- FIX
+        for (int i = start; i < json.length(); i++) {
+            char c = json.charAt(i);
 
-            String content = json.substring(start, end);
+            // stop at unescaped quote
+            if (c == '"' && json.charAt(i - 1) != '\\') break;
 
-            return content
-                    .replace("\\n", "\n")
-                    .replace("\\\"", "\"");
-
-        } catch (Exception e) {
-            return "";
+            result.append(c);
         }
+
+        return result.toString()
+                .replace("\\n", "\n")
+                .replace("\\\"", "\"");
+
+    } catch (Exception e) {
+        return "";
     }
+}
 
     static String get(String json, String key) {
         int i = json.indexOf("\"" + key + "\"");
