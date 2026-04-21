@@ -13,7 +13,7 @@ Auto-generated index of problems (Java).
 | Problem | Code | Explanation |
 |--------|------|------------|
 | AllTraversalInSingleStack | [Code](./TREE/AllTraversalInSingleStack.java) | [Notes](./TREE/AllTraversalInSingleStack.md) |
-| BottomView | [Code](./TREE/BottomView.java) | — |
+| BottomView | [Code](./TREE/BottomView.java) | [Notes](./TREE/BottomView.md) |
 | BoundryOfTree | [Code](./TREE/BoundryOfTree.java) | [Notes](./TREE/BoundryOfTree.md) |
 | DiameterOfBinaryTree | [Code](./TREE/DiameterOfBinaryTree.java) | [Notes](./TREE/DiameterOfBinaryTree.md) |
 | HeightOfTree | [Code](./TREE/HeightOfTree.java) | [Notes](./TREE/HeightOfTree.md) |
