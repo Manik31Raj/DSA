@@ -44,7 +44,8 @@ public class GenerateReadme {
                 String problem = f.getName().replace(".java", "");
                 String code = new String(Files.readAllBytes(f.toPath()));
 
-                System.out.println("\nProcessing: " + problem);
+                System.out.println("\n==============================");
+                System.out.println("Processing: " + problem);
 
                 Meta meta = analyze(code);
 
@@ -74,7 +75,7 @@ public class GenerateReadme {
 
         Files.write(Paths.get("README.md"), md.toString().getBytes());
 
-        System.out.println("✅ README updated!");
+        System.out.println("\n✅ README updated!");
     }
 
     // ================= GEMINI =================
@@ -90,8 +91,11 @@ public class GenerateReadme {
             }
 
             String prompt = """
-Return ONLY JSON:
+Return ONLY valid JSON.
 
+NO explanation.
+
+Format:
 {"pattern":"...","difficulty":"...","tc":"..."}
 
 Code:
@@ -134,7 +138,7 @@ Code:
                 res.append(line);
             }
 
-            System.out.println("🔥 RAW:");
+            System.out.println("🔥 RAW RESPONSE:");
             System.out.println(res.toString());
 
             if (status < 200 || status >= 300) {
@@ -165,7 +169,7 @@ Code:
         return "\"" + s.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
-    // Extract Gemini text field
+    // ✅ FIXED PARSER (main issue solved)
     static String extract(String json) {
         try {
             String marker = "\"text\":\"";
@@ -174,9 +178,12 @@ Code:
             if (start == -1) return "";
 
             start += marker.length();
-            int end = json.indexOf("\"", start);
 
-            return json.substring(start, end)
+            int end = json.lastIndexOf("\"");  // <-- FIX
+
+            String content = json.substring(start, end);
+
+            return content
                     .replace("\\n", "\n")
                     .replace("\\\"", "\"");
 
