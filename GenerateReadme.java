@@ -5,25 +5,22 @@ import java.util.*;
 
 public class GenerateReadme {
 
-    // ================= META =================
     static class Meta {
         String pattern, difficulty, tc;
 
-        Meta(String pattern, String difficulty, String tc) {
-            this.pattern = pattern;
-            this.difficulty = difficulty;
-            this.tc = tc;
+        Meta(String p, String d, String t) {
+            pattern = p;
+            difficulty = d;
+            tc = t;
         }
     }
 
-    // ================= MAIN =================
     public static void main(String[] args) throws IOException {
 
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
 
         md.append("# 📘 DSA Practice Repository\n\n");
-        md.append("Auto-generated index of problems (Java).\n\n");
 
         File[] dirs = repo.listFiles(File::isDirectory);
         if (dirs == null) return;
@@ -33,14 +30,10 @@ public class GenerateReadme {
         for (File dir : dirs) {
 
             String name = dir.getName();
-
-            if (name.startsWith(".") || name.equals("node_modules") || name.equals(".github"))
-                continue;
+            if (name.startsWith(".") || name.equals(".github")) continue;
 
             File[] files = dir.listFiles((d, f) -> f.endsWith(".java"));
             if (files == null || files.length == 0) continue;
-
-            Arrays.sort(files, Comparator.comparing(File::getName));
 
             md.append("## 📂 ").append(name).append("\n\n");
             md.append("| Problem | Code | Explanation | Pattern | Difficulty | TC |\n");
@@ -49,122 +42,90 @@ public class GenerateReadme {
             for (File f : files) {
 
                 String problem = f.getName().replace(".java", "");
-                String path = "./" + name + "/" + f.getName();
-
                 String code = new String(Files.readAllBytes(f.toPath()));
 
-                Meta meta = analyzeCode(code);
-
-                File explanation = new File(dir, problem + ".md");
+                Meta meta = analyze(code);
 
                 md.append("| ")
-                        .append(problem)
-                        .append(" | [View Code](")
-                        .append(path)
-                        .append(") | ");
+                  .append(problem)
+                  .append(" | [View Code](./").append(name).append("/").append(f.getName()).append(") | ");
 
-                if (explanation.exists()) {
-                    String expPath = "./" + name + "/" + problem + ".md";
-                    md.append("[View Notes](").append(expPath).append(")");
+                File exp = new File(dir, problem + ".md");
+
+                if (exp.exists()) {
+                    md.append("[View Notes](./").append(name).append("/").append(problem).append(".md)");
                 } else {
                     md.append("—");
                 }
 
                 md.append(" | ")
-                        .append(meta.pattern)
-                        .append(" | ")
-                        .append(meta.difficulty)
-                        .append(" | ")
-                        .append(meta.tc)
-                        .append(" |\n");
+                  .append(meta.pattern)
+                  .append(" | ")
+                  .append(meta.difficulty)
+                  .append(" | ")
+                  .append(meta.tc)
+                  .append(" |\n");
             }
 
             md.append("\n");
         }
 
-        md.append("---\n");
-        md.append("⚡ Auto-generated on every push using GitHub Actions.\n");
-
         Files.write(Paths.get("README.md"), md.toString().getBytes());
 
-        System.out.println("✅ README updated!");
+        System.out.println("README updated!");
     }
 
-    // ================= GEMINI AI =================
+    // ================= OPENAI =================
 
-    public static Meta analyzeCode(String code) {
+    public static Meta analyze(String code) {
+
         try {
-            String apiKey = System.getenv("GEMINI_API_KEY");
+            String apiKey = System.getenv("OPENAI_API_KEY");
 
-            if (apiKey == null || apiKey.isEmpty()) {
-                System.out.println("❌ GEMINI KEY MISSING");
+            if (apiKey == null) {
+                System.out.println("❌ NO API KEY");
                 return new Meta("Unknown", "Unknown", "Unknown");
             }
 
             String prompt = """
-You MUST return ONLY valid JSON.
+Return ONLY JSON (no text):
 
-Format:
 {"pattern":"...","difficulty":"...","tc":"..."}
-
-Rules:
-- pattern: short (DFS, BFS, Stack, Tree DP)
-- difficulty: Easy/Medium/Hard
-- tc: Big-O notation
-- NO explanation
 
 Code:
 """ + code;
 
-            String requestBody = "{\n" +
-                    "\"contents\": [{\n" +
-                    "  \"parts\": [{\"text\": " + escape(prompt) + "}]\n" +
-                    "}]\n" +
+            String body = "{\n" +
+                    "\"model\":\"gpt-5.3\",\n" +
+                    "\"messages\":[{\"role\":\"user\",\"content\":" + esc(prompt) + "}]\n" +
                     "}";
 
-            // ✅ FIXED MODEL
-            URL url = new URL(
-                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + apiKey
-            );
-
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            HttpURLConnection conn = (HttpURLConnection)
+                    new URL("https://api.openai.com/v1/chat/completions").openConnection();
 
             conn.setRequestMethod("POST");
+            conn.setRequestProperty("Authorization", "Bearer " + apiKey);
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setDoOutput(true);
 
-            try (OutputStream os = conn.getOutputStream()) {
-                os.write(requestBody.getBytes());
-            }
+            conn.getOutputStream().write(body.getBytes());
 
-            int status = conn.getResponseCode();
-            System.out.println("🔎 RESPONSE CODE: " + status);
+            BufferedReader br = new BufferedReader(
+                    new InputStreamReader(conn.getInputStream()));
 
-            BufferedReader br;
-
-            if (status >= 200 && status < 300) {
-                br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-            } else {
-                br = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
-            }
-
-            StringBuilder response = new StringBuilder();
+            StringBuilder res = new StringBuilder();
             String line;
 
-            while ((line = br.readLine()) != null) {
-                response.append(line);
-            }
+            while ((line = br.readLine()) != null) res.append(line);
 
-            System.out.println("🔥 GEMINI RAW: " + response);
+            System.out.println("RAW: " + res);
 
-            String content = extractGeminiContent(response.toString());
-
-            System.out.println("✅ EXTRACTED TEXT: " + content);
+            String content = extract(res.toString());
 
             return new Meta(
-                    extractField(content, "pattern"),
-                    extractField(content, "difficulty"),
-                    extractField(content, "tc")
+                    get(content, "pattern"),
+                    get(content, "difficulty"),
+                    get(content, "tc")
             );
 
         } catch (Exception e) {
@@ -175,53 +136,24 @@ Code:
 
     // ================= HELPERS =================
 
-    private static String escape(String text) {
-        return "\"" + text.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
+    static String esc(String s) {
+        return "\"" + s.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
-    // ✅ FIXED PARSER
-    private static String extractGeminiContent(String json) {
-        try {
-            String marker = "\"text\":\"";
-            int start = json.indexOf(marker);
-            if (start == -1) return "";
-
-            start += marker.length();
-
-            int end = json.indexOf("\"", start);
-            return json.substring(start, end)
-                    .replace("\\n", "\n")
-                    .replace("\\\"", "\"");
-
-        } catch (Exception e) {
-            return "";
-        }
+    static String extract(String json) {
+        int i = json.indexOf("\"content\":\"") + 11;
+        int j = json.lastIndexOf("\"");
+        return json.substring(i, j).replace("\\n", "\n").replace("\\\"", "\"");
     }
 
-    private static String extractField(String json, String key) {
-        try {
-            int i = json.indexOf("\"" + key + "\"");
-            if (i == -1) return "Unknown";
+    static String get(String json, String key) {
+        int i = json.indexOf("\"" + key + "\"");
+        if (i == -1) return "Unknown";
 
-            int start = json.indexOf(":", i) + 1;
+        int s = json.indexOf(":", i) + 1;
+        int e = json.indexOf(",", s);
+        if (e == -1) e = json.indexOf("}", s);
 
-            while (start < json.length() &&
-                    (json.charAt(start) == ' ' || json.charAt(start) == '"')) {
-                start++;
-            }
-
-            int end = start;
-            while (end < json.length() &&
-                    json.charAt(end) != '"' &&
-                    json.charAt(end) != ',' &&
-                    json.charAt(end) != '}') {
-                end++;
-            }
-
-            return json.substring(start, end).trim();
-
-        } catch (Exception e) {
-            return "Unknown";
-        }
+        return json.substring(s, e).replace("\"", "").trim();
     }
 }
