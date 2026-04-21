@@ -40,13 +40,13 @@ public class GenerateReadme {
 
                 md.append("| ")
                   .append(problem)
-                  .append(" | [Code](")
+                  .append(" | [View Code](")
                   .append(path)
                   .append(") | ");
 
                 if (explanation.exists()) {
                     String expPath = "./" + name + "/" + problem + ".md";
-                    md.append("[Notes](").append(expPath).append(")");
+                    md.append("[View Notes](").append(expPath).append(")");
                 } else {
                     md.append("—");
                 }
