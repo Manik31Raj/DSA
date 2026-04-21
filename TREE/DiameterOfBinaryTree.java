@@ -1,28 +1,3 @@
-/*
- * Diameter of Binary Tree:
- * The longest path between any two nodes in the tree.
- * Path can go through root, but it doesn’t have to.
- *
- * Example:
- *
- *         1
- *       /   \
- *      2     3
- *     / \   / \
- *    4   5 6   7
- *
- * One longest path:
- * 4 → 2 → 1 → 3 → 7
- *
- * edges count = 4 → this is the diameter
- *
- * Idea used below:
- * At every node, check:
- *   left height + right height
- *
- * keep updating max → that becomes diameter
- */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
