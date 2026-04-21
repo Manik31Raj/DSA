@@ -29,7 +29,7 @@ jobs:
       - name: Run script
         run: java GenerateReadme
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Commit README
         run: |
