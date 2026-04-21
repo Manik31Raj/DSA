@@ -23,7 +23,7 @@ Auto-generated index of problems (Java).
 | IterativePreOrderTraversal | [Code](./TREE/IterativePreOrderTraversal.java) | [Notes](./TREE/IterativePreOrderTraversal.md) |
 | LevelWiseTraversal | [Code](./TREE/LevelWiseTraversal.java) | [Notes](./TREE/LevelWiseTraversal.md) |
 | MaximumPathSumOfBinaryTree | [Code](./TREE/MaximumPathSumOfBinaryTree.java) | [Notes](./TREE/MaximumPathSumOfBinaryTree.md) |
-| RightAndLeftView | [Code](./TREE/RightAndLeftView.java) | — |
+| RightAndLeftView | [Code](./TREE/RightAndLeftView.java) | [Notes](./TREE/RightAndLeftView.md) |
 | RootToNode | [Code](./TREE/RootToNode.java) | [Notes](./TREE/RootToNode.md) |
 | SameTreeOrNot | [Code](./TREE/SameTreeOrNot.java) | [Notes](./TREE/SameTreeOrNot.md) |
 | SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | [Notes](./TREE/SymmetricBTree.md) |
