@@ -26,11 +26,8 @@ jobs:
       - name: Compile
         run: javac GenerateReadme.java
 
-      - name: Run script
-        run: |
-          java GenerateReadme
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Run
+        run: java GenerateReadme
 
       - name: Commit README
         run: |
