@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-// helper class → keeps track of node + its current state
+// helper class → keeps track of node + its current state.
 class Pair{
     Node node;
     int num;
