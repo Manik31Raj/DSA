@@ -29,7 +29,7 @@ Auto-generated index of problems (Java).
 | SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | [Notes](./TREE/SymmetricBTree.md) |
 | TopView | [Code](./TREE/TopView.java) | — |
 | TreeWithTraversal | [Code](./TREE/TreeWithTraversal.java) | [Notes](./TREE/TreeWithTraversal.md) |
-| VerticalTraversalOfTree | [Code](./TREE/VerticalTraversalOfTree.java) | — |
+| VerticalTraversalOfTree | [Code](./TREE/VerticalTraversalOfTree.java) | [Notes](./TREE/VerticalTraversalOfTree.md) |
 | checkForBalancedBt | [Code](./TREE/checkForBalancedBt.java) | [Notes](./TREE/checkForBalancedBt.md) |
 
 ---
