@@ -26,7 +26,7 @@ Auto-generated index of problems (Java).
 | RightAndLeftView | [Code](./TREE/RightAndLeftView.java) | — |
 | RootToNode | [Code](./TREE/RootToNode.java) | — |
 | SameTreeOrNot | [Code](./TREE/SameTreeOrNot.java) | — |
-| SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | — |
+| SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | [Notes](./TREE/SymmetricBTree.md) |
 | TopView | [Code](./TREE/TopView.java) | — |
 | TreeWithTraversal | [Code](./TREE/TreeWithTraversal.java) | — |
 | VerticalTraversalOfTree | [Code](./TREE/VerticalTraversalOfTree.java) | — |
