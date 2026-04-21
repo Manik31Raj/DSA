@@ -27,7 +27,7 @@ Auto-generated index of problems (Java).
 | RootToNode | [Code](./TREE/RootToNode.java) | [Notes](./TREE/RootToNode.md) |
 | SameTreeOrNot | [Code](./TREE/SameTreeOrNot.java) | [Notes](./TREE/SameTreeOrNot.md) |
 | SymmetricBTree | [Code](./TREE/SymmetricBTree.java) | [Notes](./TREE/SymmetricBTree.md) |
-| TopView | [Code](./TREE/TopView.java) | — |
+| TopView | [Code](./TREE/TopView.java) | [Notes](./TREE/TopView.md) |
 | TreeWithTraversal | [Code](./TREE/TreeWithTraversal.java) | [Notes](./TREE/TreeWithTraversal.md) |
 | VerticalTraversalOfTree | [Code](./TREE/VerticalTraversalOfTree.java) | [Notes](./TREE/VerticalTraversalOfTree.md) |
 | checkForBalancedBt | [Code](./TREE/checkForBalancedBt.java) | [Notes](./TREE/checkForBalancedBt.md) |
