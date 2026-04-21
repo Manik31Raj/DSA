@@ -28,11 +28,13 @@ jobs:
 
       - name: Run script
         run: java GenerateReadme
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Commit README
         run: |
-          git config user.name "Mank31Raj"
-          git config user.email "manik31raj@gmail.com"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
           git add README.md
           git commit -m "Auto-update README" || echo "No changes"
           git push
