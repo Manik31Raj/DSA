@@ -5,7 +5,7 @@ import java.util.*;
 
 public class GenerateReadme {
 
-    // Meta class
+    // ================= META CLASS =================
     static class Meta {
         String pattern, difficulty, tc;
 
@@ -16,6 +16,7 @@ public class GenerateReadme {
         }
     }
 
+    // ================= MAIN =================
     public static void main(String[] args) throws IOException {
 
         File repo = new File(".");
@@ -33,7 +34,6 @@ public class GenerateReadme {
 
             String name = dir.getName();
 
-            // skip unwanted folders
             if (name.startsWith(".") || name.equals("node_modules") || name.equals(".github"))
                 continue;
 
@@ -98,26 +98,17 @@ public class GenerateReadme {
             String apiKey = System.getenv("OPENAI_API_KEY");
 
             if (apiKey == null || apiKey.isEmpty()) {
+                System.out.println("❌ API KEY MISSING");
                 return new Meta("Unknown", "Unknown", "Unknown");
             }
 
             String prompt = """
-You are a DSA expert.
+You MUST return ONLY valid JSON.
 
-Analyze the following Java code and return ONLY valid JSON:
+NO text before or after.
 
-{
-  "pattern": "",
-  "difficulty": "",
-  "tc": ""
-}
-
-Rules:
-- pattern: short (e.g., DFS, BFS, Stack, Tree DP)
-- difficulty: Easy / Medium / Hard
-- tc: Big-O notation
-- DO NOT add explanations
-- DO NOT add extra text
+Format:
+{"pattern":"...","difficulty":"...","tc":"..."}
 
 Code:
 """ + code;
@@ -151,7 +142,11 @@ Code:
                 response.append(line);
             }
 
+            System.out.println("🔥 RAW RESPONSE: " + response.toString());
+
             String content = extractContent(response.toString());
+
+            System.out.println("✅ EXTRACTED CONTENT: " + content);
 
             return new Meta(
                     extractField(content, "pattern"),
@@ -160,7 +155,8 @@ Code:
             );
 
         } catch (Exception e) {
-            return new Meta("Unknown", "Unknown", "Unknown");
+            e.printStackTrace();
+            return new Meta("Error", "Error", "Error");
         }
     }
 
@@ -170,22 +166,49 @@ Code:
         return "\"" + text.replace("\"", "\\\"").replace("\n", "\\n") + "\"";
     }
 
+    // FIXED VERSION (IMPORTANT)
     private static String extractContent(String json) {
-        int start = json.indexOf("\"content\":\"") + 11;
-        int end = json.indexOf("\"", start);
-        return json.substring(start, end).replace("\\n", "\n");
+        try {
+            int start = json.indexOf("\"content\":\"");
+            if (start == -1) return "";
+
+            start += 11;
+
+            int end = json.lastIndexOf("\"");
+            String content = json.substring(start, end);
+
+            return content.replace("\\n", "\n").replace("\\\"", "\"");
+
+        } catch (Exception e) {
+            return "";
+        }
     }
 
+    // FIXED VERSION (IMPORTANT)
     private static String extractField(String json, String key) {
-        int i = json.indexOf("\"" + key + "\"");
-        if (i == -1) return "Unknown";
+        try {
+            int i = json.indexOf("\"" + key + "\"");
+            if (i == -1) return "Unknown";
 
-        int start = json.indexOf(":", i) + 1;
-        int end = json.indexOf(",", start);
-        if (end == -1) end = json.indexOf("}", start);
+            int start = json.indexOf(":", i) + 1;
 
-        return json.substring(start, end)
-                .replace("\"", "")
-                .trim();
+            while (start < json.length() &&
+                    (json.charAt(start) == ' ' || json.charAt(start) == '"')) {
+                start++;
+            }
+
+            int end = start;
+            while (end < json.length() &&
+                    json.charAt(end) != '"' &&
+                    json.charAt(end) != ',' &&
+                    json.charAt(end) != '}') {
+                end++;
+            }
+
+            return json.substring(start, end).trim();
+
+        } catch (Exception e) {
+            return "Unknown";
+        }
     }
 }
