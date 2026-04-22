@@ -6,7 +6,7 @@ public class GenerateReadme {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("🚀 Generating README (Per-Folder Serial)");
+        System.out.println("🚀 Generating README (First Commit Order + Per Folder Serial)");
 
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
@@ -14,7 +14,7 @@ public class GenerateReadme {
         md.append("# 📘 DSA Practice Repository\n\n");
         md.append("Structured collection of DSA problems with Java solutions.\n\n");
 
-        // 🔥 Get files in commit order
+        // 🔥 Get files in TRUE first commit order
         List<String> orderedFiles = getFilesByCommitOrder();
 
         File[] dirs = repo.listFiles(File::isDirectory);
@@ -36,7 +36,7 @@ public class GenerateReadme {
             section.append("| S.No | Problem | Code | Explanation |\n");
             section.append("|------|--------|------|------------|\n");
 
-            int serial = 1;  // 🔥 RESET for each folder
+            int serial = 1; // 🔥 reset per folder
 
             for (String path : orderedFiles) {
 
@@ -54,7 +54,7 @@ public class GenerateReadme {
                 File explanation = new File(dir, problem + ".md");
 
                 section.append("| ")
-                       .append(serial++)   // 🔥 per-folder numbering
+                       .append(serial++)
                        .append(" | ")
                        .append(problem)
                        .append(" | [View Code](")
@@ -85,11 +85,15 @@ public class GenerateReadme {
         System.out.println("✅ README UPDATED!");
     }
 
-    // 🔥 Get files in first commit order
+    // 🔥 TRUE first commit order (file creation in repo)
     static List<String> getFilesByCommitOrder() throws IOException {
 
         ProcessBuilder pb = new ProcessBuilder(
-            "git", "log", "--reverse", "--name-only", "--pretty=format:"
+            "git", "log",
+            "--reverse",
+            "--diff-filter=A",   // ✅ only first time added
+            "--name-only",
+            "--pretty=format:"
         );
 
         pb.redirectErrorStream(true);
@@ -106,7 +110,7 @@ public class GenerateReadme {
             line = line.trim();
 
             if (!line.isEmpty() && line.endsWith(".java")) {
-                files.add(line);
+                files.add(line); // keeps correct order
             }
         }
 
