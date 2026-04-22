@@ -15,7 +15,7 @@ Structured collection of DSA problems with Java solutions.
 | AllTraversalInSingleStack | [View Code](./TREE/AllTraversalInSingleStack.java) | [View Notes](./TREE/AllTraversalInSingleStack.md) |
 | BottomView | [View Code](./TREE/BottomView.java) | [View Notes](./TREE/BottomView.md) |
 | BoundryOfTree | [View Code](./TREE/BoundryOfTree.java) | [View Notes](./TREE/BoundryOfTree.md) |
-| ChildSumProperty | [View Code](./TREE/ChildSumProperty.java) | — |
+| ChildSumProperty | [View Code](./TREE/ChildSumProperty.java) | [View Notes](./TREE/ChildSumProperty.md) |
 | DiameterOfBinaryTree | [View Code](./TREE/DiameterOfBinaryTree.java) | [View Notes](./TREE/DiameterOfBinaryTree.md) |
 | HeightOfTree | [View Code](./TREE/HeightOfTree.java) | [View Notes](./TREE/HeightOfTree.md) |
 | IterativeInOrderTraversal | [View Code](./TREE/IterativeInOrderTraversal.java) | [View Notes](./TREE/IterativeInOrderTraversal.md) |
