@@ -6,7 +6,7 @@ public class GenerateReadme {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("🚀 Generating README (First Commit Order + Per Folder Serial)");
+        System.out.println("🚀 Generating README (Stable Commit Order)");
 
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
@@ -14,7 +14,7 @@ public class GenerateReadme {
         md.append("# 📘 DSA Practice Repository\n\n");
         md.append("Structured collection of DSA problems with Java solutions.\n\n");
 
-        // 🔥 Get files in TRUE first commit order
+        // 🔥 Correct commit order (handles rename/move)
         List<String> orderedFiles = getFilesByCommitOrder();
 
         File[] dirs = repo.listFiles(File::isDirectory);
@@ -85,13 +85,12 @@ public class GenerateReadme {
         System.out.println("✅ README UPDATED!");
     }
 
-    // 🔥 TRUE first commit order (file creation in repo)
+    // 🔥 FINAL CORRECT METHOD (handles rename + keeps first appearance)
     static List<String> getFilesByCommitOrder() throws IOException {
 
         ProcessBuilder pb = new ProcessBuilder(
             "git", "log",
             "--reverse",
-            "--diff-filter=A",   // ✅ only first time added
             "--name-only",
             "--pretty=format:"
         );
@@ -110,7 +109,7 @@ public class GenerateReadme {
             line = line.trim();
 
             if (!line.isEmpty() && line.endsWith(".java")) {
-                files.add(line); // keeps correct order
+                files.add(line); // keeps first occurrence only
             }
         }
 
