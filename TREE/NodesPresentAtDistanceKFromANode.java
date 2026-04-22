@@ -12,16 +12,6 @@ class Node{
    }
 }
 
-class Pair{
-    Node node;
-    int index;
-    public Pair(Node node,int index){
-        this.node=node;
-        this.index=index;
-    }
-}
-
-
 class NodesPresentAtDistanceKFromANode
 {
 	public static void main (String[] args) throws java.lang.Exception
