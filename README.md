@@ -22,7 +22,7 @@ Structured collection of DSA problems with Java solutions.
 | IterativePostOrderTraversal2 | [View Code](./TREE/IterativePostOrderTraversal2.java) | [View Notes](./TREE/IterativePostOrderTraversal2.md) |
 | IterativePreOrderTraversal | [View Code](./TREE/IterativePreOrderTraversal.java) | [View Notes](./TREE/IterativePreOrderTraversal.md) |
 | LevelWiseTraversal | [View Code](./TREE/LevelWiseTraversal.java) | [View Notes](./TREE/LevelWiseTraversal.md) |
-| LowestCommonAncestor | [View Code](./TREE/LowestCommonAncestor.java) | — |
+| LowestCommonAncestor | [View Code](./TREE/LowestCommonAncestor.java) | [View Notes](./TREE/LowestCommonAncestor.md) |
 | MaximumPathSumOfBinaryTree | [View Code](./TREE/MaximumPathSumOfBinaryTree.java) | [View Notes](./TREE/MaximumPathSumOfBinaryTree.md) |
 | RightAndLeftView | [View Code](./TREE/RightAndLeftView.java) | [View Notes](./TREE/RightAndLeftView.md) |
 | RootToNode | [View Code](./TREE/RootToNode.java) | [View Notes](./TREE/RootToNode.md) |
