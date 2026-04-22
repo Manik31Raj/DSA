@@ -41,7 +41,7 @@ class NodesPresentAtDistanceKFromANode
 		System.out.println("Nodes present at a ditance of "+k+" from Node "+root.left.data+" are  -> "+distanceK(root,root.left,k));
 		
 	}
-    public static void markParents(Node root,Map<Node,Node> parent,Node target){
+    public static void markParents(Node root,Map<Node,Node> parent){
         Queue<Node> queue=new LinkedList<>();
         queue.offer(root);
         while(!queue.isEmpty()){
@@ -59,7 +59,7 @@ class NodesPresentAtDistanceKFromANode
     
     public static List<Integer> distanceK(Node root,Node target,int k){
         Map<Node,Node> parent=new HashMap<>();
-        markParents(root,parent,root);
+        markParents(root,parent);
         Map<Node,Boolean> visited=new HashMap<>();
         Queue<Node> q=new LinkedList<>();
         
