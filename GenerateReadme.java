@@ -6,7 +6,7 @@ public class GenerateReadme {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("🚀 Generating README (Commit Order)");
+        System.out.println("🚀 Generating README (Per-Folder Serial)");
 
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
@@ -29,15 +29,17 @@ public class GenerateReadme {
             // skip system folders
             if (name.startsWith(".") || name.equals(".github")) continue;
 
-            md.append("## 📂 ").append(name).append("\n\n");
-            md.append("| Problem | Code | Explanation |\n");
-            md.append("|--------|------|------------|\n");
-
+            StringBuilder section = new StringBuilder();
             boolean hasFiles = false;
+
+            section.append("## 📂 ").append(name).append("\n\n");
+            section.append("| S.No | Problem | Code | Explanation |\n");
+            section.append("|------|--------|------|------------|\n");
+
+            int serial = 1;  // 🔥 RESET for each folder
 
             for (String path : orderedFiles) {
 
-                // only take files from this directory
                 if (!path.startsWith(name + "/")) continue;
                 if (!path.endsWith(".java")) continue;
 
@@ -51,24 +53,27 @@ public class GenerateReadme {
 
                 File explanation = new File(dir, problem + ".md");
 
-                md.append("| ")
-                  .append(problem)
-                  .append(" | [View Code](")
-                  .append(codePath)
-                  .append(") | ");
+                section.append("| ")
+                       .append(serial++)   // 🔥 per-folder numbering
+                       .append(" | ")
+                       .append(problem)
+                       .append(" | [View Code](")
+                       .append(codePath)
+                       .append(") | ");
 
                 if (explanation.exists()) {
                     String expPath = "./" + name + "/" + problem + ".md";
-                    md.append("[View Notes](").append(expPath).append(")");
+                    section.append("[View Notes](").append(expPath).append(")");
                 } else {
-                    md.append("—");
+                    section.append("—");
                 }
 
-                md.append(" |\n");
+                section.append(" |\n");
             }
 
             if (hasFiles) {
-                md.append("\n");
+                section.append("\n");
+                md.append(section);
             }
         }
 
@@ -80,7 +85,7 @@ public class GenerateReadme {
         System.out.println("✅ README UPDATED!");
     }
 
-    // 🔥 Get files in first commit order (oldest → newest)
+    // 🔥 Get files in first commit order
     static List<String> getFilesByCommitOrder() throws IOException {
 
         ProcessBuilder pb = new ProcessBuilder(
@@ -100,8 +105,8 @@ public class GenerateReadme {
         while ((line = reader.readLine()) != null) {
             line = line.trim();
 
-            if (!line.isEmpty()) {
-                files.add(line); // keeps order, removes duplicates
+            if (!line.isEmpty() && line.endsWith(".java")) {
+                files.add(line);
             }
         }
 
