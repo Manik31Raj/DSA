@@ -35,6 +35,7 @@ Structured collection of DSA problems with Java solutions.
 | 21 | MaxWidthOfBinaryTree | [View Code](./TREE/MaxWidthOfBinaryTree.java) | [View Notes](./TREE/MaxWidthOfBinaryTree.md) |
 | 22 | ChildSumProperty | [View Code](./TREE/ChildSumProperty.java) | [View Notes](./TREE/ChildSumProperty.md) |
 | 23 | NodesPresentAtDistanceKFromANode | [View Code](./TREE/NodesPresentAtDistanceKFromANode.java) | [View Notes](./TREE/NodesPresentAtDistanceKFromANode.md) |
+| 24 | MaxTimeTakenToBurnABTreeFromANode | [View Code](./TREE/MaxTimeTakenToBurnABTreeFromANode.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
