@@ -36,7 +36,7 @@ Structured collection of DSA problems with Java solutions.
 | 22 | ChildSumProperty | [View Code](./TREE/ChildSumProperty.java) | [View Notes](./TREE/ChildSumProperty.md) |
 | 23 | NodesPresentAtDistanceKFromANode | [View Code](./TREE/NodesPresentAtDistanceKFromANode.java) | [View Notes](./TREE/NodesPresentAtDistanceKFromANode.md) |
 | 24 | MaxTimeTakenToBurnABTreeFromANode | [View Code](./TREE/MaxTimeTakenToBurnABTreeFromANode.java) | [View Notes](./TREE/MaxTimeTakenToBurnABTreeFromANode.md) |
-| 25 | CountNodesOfCompleteBinaryTree | [View Code](./TREE/CountNodesOfCompleteBinaryTree.java) | — |
+| 25 | CountNodesOfCompleteBinaryTree | [View Code](./TREE/CountNodesOfCompleteBinaryTree.java) | [View Notes](./TREE/CountNodesOfCompleteBinaryTree.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
