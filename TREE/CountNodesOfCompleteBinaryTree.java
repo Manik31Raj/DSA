@@ -11,22 +11,22 @@ class Node{
     }
 }
 
-class CountNodesOfCompleteTree
+class CountNodesOfCompleteBinaryTree
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		    Node root=new Node(1);
-		    root.left=new Node(2);
-		    root.right=new Node(3);
-	      root.left.left=new Node(4);
-	      root.left.right=new Node(5);
-	      root.right.left=new Node(6);
+		Node root=new Node(1);
+		root.left=new Node(2);
+		root.right=new Node(3);
+	    root.left.left=new Node(4);
+	    root.left.right=new Node(5);
+	    root.right.left=new Node(6);
         root.right.right=new Node(7);
         root.left.left.right=new Node(8);
         root.left.left.left=new Node(9);
         root.left.right.right=new Node(11);
         root.left.right.left=new Node(10);
-        root.left.right.left.right=new Node(12);
+        root.right.left.left=new Node(12);
         
         System.out.println("Total Nodes -> "+countNodes(root));
         
@@ -34,7 +34,13 @@ class CountNodesOfCompleteTree
 	
 	public static int countNodes(Node root){
 	    if(root==null) return 0;
-	    return countNodes(root.left)+countNodes(root.right)+1;
+	    
+	    int left=LeftHeight(root);
+	    int right=RightHeight(root);
+	    
+	    if(left==right) return (int)Math.pow(2,left)-1;
+	    
+	   else return countNodes(root.left)+countNodes(root.right)+1;
 	}
 	
 	public static int LeftHeight(Node root){
@@ -43,6 +49,7 @@ class CountNodesOfCompleteTree
             count++;
             root=root.left;
         }
+        
         return count;
     }
     
@@ -52,6 +59,7 @@ class CountNodesOfCompleteTree
             count++;
             root=root.right;
         }
+        
         return count;
     }
 	
