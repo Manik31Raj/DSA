@@ -6,15 +6,13 @@ public class GenerateReadme {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("🚀 Generating README (Stable Commit Order)");
-
         File repo = new File(".");
         StringBuilder md = new StringBuilder();
 
         md.append("# 📘 DSA Practice Repository\n\n");
         md.append("Structured collection of DSA problems with Java solutions.\n\n");
 
-        // 🔥 Correct commit order (handles rename/move)
+        // Correct commit order (handles rename/move)
         List<String> orderedFiles = getFilesByCommitOrder();
 
         File[] dirs = repo.listFiles(File::isDirectory);
@@ -36,7 +34,7 @@ public class GenerateReadme {
             section.append("| S.No | Problem | Code | Explanation |\n");
             section.append("|------|--------|------|------------|\n");
 
-            int serial = 1; // 🔥 reset per folder
+            int serial = 1; // reset per folder
 
             for (String path : orderedFiles) {
 
@@ -82,10 +80,10 @@ public class GenerateReadme {
 
         Files.write(Paths.get("README.md"), md.toString().getBytes());
 
-        System.out.println("✅ README UPDATED!");
+        System.out.println(" README UPDATED!");
     }
 
-    // 🔥 FINAL CORRECT METHOD (handles rename + keeps first appearance)
+    //  FINAL CORRECT METHOD (handles rename + keeps first appearance)
     static List<String> getFilesByCommitOrder() throws IOException {
 
         ProcessBuilder pb = new ProcessBuilder(
