@@ -39,7 +39,7 @@ Structured collection of DSA problems with Java solutions.
 | 25 | CountNodesOfCompleteBinaryTree | [View Code](./TREE/CountNodesOfCompleteBinaryTree.java) | [View Notes](./TREE/CountNodesOfCompleteBinaryTree.md) |
 | 26 | ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder | [View Code](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.java) | [View Notes](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.md) |
 | 27 | SerializeAndDeSerializeTree | [View Code](./TREE/SerializeAndDeSerializeTree.java) | [View Notes](./TREE/SerializeAndDeSerializeTree.md) |
-| 28 | MorrisTraversals | [View Code](./TREE/MorrisTraversals.java) | — |
+| 28 | MorrisTraversals | [View Code](./TREE/MorrisTraversals.java) | [View Notes](./TREE/MorrisTraversals.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
