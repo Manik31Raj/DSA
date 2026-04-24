@@ -38,6 +38,7 @@ Structured collection of DSA problems with Java solutions.
 | 24 | MaxTimeTakenToBurnABTreeFromANode | [View Code](./TREE/MaxTimeTakenToBurnABTreeFromANode.java) | [View Notes](./TREE/MaxTimeTakenToBurnABTreeFromANode.md) |
 | 25 | CountNodesOfCompleteBinaryTree | [View Code](./TREE/CountNodesOfCompleteBinaryTree.java) | [View Notes](./TREE/CountNodesOfCompleteBinaryTree.md) |
 | 26 | ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder | [View Code](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.java) | [View Notes](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.md) |
+| 27 | SerializeAndDeSerializeTree | [View Code](./TREE/SerializeAndDeSerializeTree.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
