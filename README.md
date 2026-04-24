@@ -37,6 +37,7 @@ Structured collection of DSA problems with Java solutions.
 | 23 | NodesPresentAtDistanceKFromANode | [View Code](./TREE/NodesPresentAtDistanceKFromANode.java) | [View Notes](./TREE/NodesPresentAtDistanceKFromANode.md) |
 | 24 | MaxTimeTakenToBurnABTreeFromANode | [View Code](./TREE/MaxTimeTakenToBurnABTreeFromANode.java) | [View Notes](./TREE/MaxTimeTakenToBurnABTreeFromANode.md) |
 | 25 | CountNodesOfCompleteBinaryTree | [View Code](./TREE/CountNodesOfCompleteBinaryTree.java) | [View Notes](./TREE/CountNodesOfCompleteBinaryTree.md) |
+| 26 | ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder | [View Code](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
