@@ -43,6 +43,7 @@ Structured collection of DSA problems with Java solutions.
 | 29 | FlattenTreeToLinkedList | [View Code](./TREE/FlattenTreeToLinkedList.java) | [View Notes](./TREE/FlattenTreeToLinkedList.md) |
 | 30 | SearchBST | [View Code](./TREE/SearchBST.java) | [View Notes](./TREE/SearchBST.md) |
 | 31 | FindCeilingInBST | [View Code](./TREE/FindCeilingInBST.java) | [View Notes](./TREE/FindCeilingInBST.md) |
+| 32 | FloorValueInBST | [View Code](./TREE/FloorValueInBST.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
