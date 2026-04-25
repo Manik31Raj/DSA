@@ -41,6 +41,7 @@ Structured collection of DSA problems with Java solutions.
 | 27 | SerializeAndDeSerializeTree | [View Code](./TREE/SerializeAndDeSerializeTree.java) | [View Notes](./TREE/SerializeAndDeSerializeTree.md) |
 | 28 | MorrisTraversals | [View Code](./TREE/MorrisTraversals.java) | [View Notes](./TREE/MorrisTraversals.md) |
 | 29 | FlattenTreeToLinkedList | [View Code](./TREE/FlattenTreeToLinkedList.java) | [View Notes](./TREE/FlattenTreeToLinkedList.md) |
+| 30 | SerachBST | [View Code](./TREE/SerachBST.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
