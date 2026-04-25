@@ -40,7 +40,7 @@ Structured collection of DSA problems with Java solutions.
 | 26 | ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder | [View Code](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.java) | [View Notes](./TREE/ConstructUniqueBinaryTreeUisngPreOrderPostOrderwithInOrder.md) |
 | 27 | SerializeAndDeSerializeTree | [View Code](./TREE/SerializeAndDeSerializeTree.java) | [View Notes](./TREE/SerializeAndDeSerializeTree.md) |
 | 28 | MorrisTraversals | [View Code](./TREE/MorrisTraversals.java) | [View Notes](./TREE/MorrisTraversals.md) |
-| 29 | FlattenTreeToLinkedList | [View Code](./TREE/FlattenTreeToLinkedList.java) | — |
+| 29 | FlattenTreeToLinkedList | [View Code](./TREE/FlattenTreeToLinkedList.java) | [View Notes](./TREE/FlattenTreeToLinkedList.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
