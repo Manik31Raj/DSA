@@ -12,7 +12,7 @@ class Node{
     }
 }
 
-class SerachBST
+class SearchBST
 {
     static List<Character> address=new ArrayList<>();
     
