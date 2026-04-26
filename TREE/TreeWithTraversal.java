@@ -35,6 +35,8 @@ class TreeWithTraversal
 	    System.out.println("");
 	   
 	}
+
+	//INORDER TRAVERSAL
 	public static void inOrder(Node root){
         if(root == null) return;
 
@@ -42,6 +44,8 @@ class TreeWithTraversal
         System.out.print(root.data + " ");
         inOrder(root.right);
     }
+
+	//PREORDER TRAVERSAL
     public static void preOrder(Node root){
         if(root == null) return;
 
@@ -49,6 +53,8 @@ class TreeWithTraversal
         preOrder(root.left);
         preOrder(root.right);
     }
+
+	//POSTORDER TRAVeRSAL
     public static void postOrder(Node root){
         if(root == null) return;
 
