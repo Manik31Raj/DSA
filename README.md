@@ -44,6 +44,7 @@ Structured collection of DSA problems with Java solutions.
 | 30 | SearchBST | [View Code](./TREE/SearchBST.java) | [View Notes](./TREE/SearchBST.md) |
 | 31 | FindCeilingInBST | [View Code](./TREE/FindCeilingInBST.java) | [View Notes](./TREE/FindCeilingInBST.md) |
 | 32 | FloorValueInBST | [View Code](./TREE/FloorValueInBST.java) | [View Notes](./TREE/FloorValueInBST.md) |
+| 33 | InsertNodeInBST | [View Code](./TREE/InsertNodeInBST.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
