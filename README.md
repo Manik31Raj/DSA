@@ -48,6 +48,7 @@ Structured collection of DSA problems with Java solutions.
 | 34 | DeleteNodeInBSt | [View Code](./TREE/DeleteNodeInBSt.java) | [View Notes](./TREE/DeleteNodeInBSt.md) |
 | 35 | FindKthSmallestAndLargstINBST | [View Code](./TREE/FindKthSmallestAndLargstINBST.java) | [View Notes](./TREE/FindKthSmallestAndLargstINBST.md) |
 | 36 | CheckForValidBST | [View Code](./TREE/CheckForValidBST.java) | [View Notes](./TREE/CheckForValidBST.md) |
+| 37 | FindLCAInBST | [View Code](./TREE/FindLCAInBST.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
