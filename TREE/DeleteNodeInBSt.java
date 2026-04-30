@@ -133,7 +133,7 @@ public static Node findMin(Node root){
      Queue<Node> q = new LinkedList<>();
      q.offer(root);
  
-     int level = 0;   // 🔥 start from 0
+     int level = 0;   
 
      while(!q.isEmpty()){
         int size = q.size();
