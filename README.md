@@ -49,7 +49,7 @@ Structured collection of DSA problems with Java solutions.
 | 35 | FindKthSmallestAndLargstINBST | [View Code](./TREE/FindKthSmallestAndLargstINBST.java) | [View Notes](./TREE/FindKthSmallestAndLargstINBST.md) |
 | 36 | CheckForValidBST | [View Code](./TREE/CheckForValidBST.java) | [View Notes](./TREE/CheckForValidBST.md) |
 | 37 | FindLCAInBST | [View Code](./TREE/FindLCAInBST.java) | [View Notes](./TREE/FindLCAInBST.md) |
-| 38 | ConstructBSTUsingPreOrder | [View Code](./TREE/ConstructBSTUsingPreOrder.java) | — |
+| 38 | ConstructBSTUsingPreOrder | [View Code](./TREE/ConstructBSTUsingPreOrder.java) | [View Notes](./TREE/ConstructBSTUsingPreOrder.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
