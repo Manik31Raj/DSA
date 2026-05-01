@@ -50,7 +50,7 @@ Structured collection of DSA problems with Java solutions.
 | 36 | CheckForValidBST | [View Code](./TREE/CheckForValidBST.java) | [View Notes](./TREE/CheckForValidBST.md) |
 | 37 | FindLCAInBST | [View Code](./TREE/FindLCAInBST.java) | [View Notes](./TREE/FindLCAInBST.md) |
 | 38 | ConstructBSTUsingPreOrder | [View Code](./TREE/ConstructBSTUsingPreOrder.java) | [View Notes](./TREE/ConstructBSTUsingPreOrder.md) |
-| 39 | InOrderSuccessorAndPredecessor | [View Code](./TREE/InOrderSuccessorAndPredecessor.java) | — |
+| 39 | InOrderSuccessorAndPredecessor | [View Code](./TREE/InOrderSuccessorAndPredecessor.java) | [View Notes](./TREE/InOrderSuccessorAndPredecessor.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
