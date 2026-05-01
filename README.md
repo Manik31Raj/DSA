@@ -51,7 +51,7 @@ Structured collection of DSA problems with Java solutions.
 | 37 | FindLCAInBST | [View Code](./TREE/FindLCAInBST.java) | [View Notes](./TREE/FindLCAInBST.md) |
 | 38 | ConstructBSTUsingPreOrder | [View Code](./TREE/ConstructBSTUsingPreOrder.java) | [View Notes](./TREE/ConstructBSTUsingPreOrder.md) |
 | 39 | InOrderSuccessorAndPredecessor | [View Code](./TREE/InOrderSuccessorAndPredecessor.java) | [View Notes](./TREE/InOrderSuccessorAndPredecessor.md) |
-| 40 | BSTIterator | [View Code](./TREE/BSTIterator.java) | — |
+| 40 | BSTIterator | [View Code](./TREE/BSTIterator.java) | [View Notes](./TREE/BSTIterator.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
