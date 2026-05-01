@@ -52,7 +52,7 @@ Structured collection of DSA problems with Java solutions.
 | 38 | ConstructBSTUsingPreOrder | [View Code](./TREE/ConstructBSTUsingPreOrder.java) | [View Notes](./TREE/ConstructBSTUsingPreOrder.md) |
 | 39 | InOrderSuccessorAndPredecessor | [View Code](./TREE/InOrderSuccessorAndPredecessor.java) | [View Notes](./TREE/InOrderSuccessorAndPredecessor.md) |
 | 40 | BSTIterator | [View Code](./TREE/BSTIterator.java) | [View Notes](./TREE/BSTIterator.md) |
-| 41 | TwoSumBST | [View Code](./TREE/TwoSumBST.java) | — |
+| 41 | TwoSumBST | [View Code](./TREE/TwoSumBST.java) | [View Notes](./TREE/TwoSumBST.md) |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
