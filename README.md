@@ -54,6 +54,7 @@ Structured collection of DSA problems with Java solutions.
 | 40 | BSTIterator | [View Code](./TREE/BSTIterator.java) | [View Notes](./TREE/BSTIterator.md) |
 | 41 | TwoSumBST | [View Code](./TREE/TwoSumBST.java) | [View Notes](./TREE/TwoSumBST.md) |
 | 42 | RecoverBST | [View Code](./TREE/RecoverBST.java) | [View Notes](./TREE/RecoverBST.md) |
+| 43 | LargestBSTPrsentInBT | [View Code](./TREE/LargestBSTPrsentInBT.java) | — |
 
 ---
 ⚡ Auto-generated using GitHub Actions.
