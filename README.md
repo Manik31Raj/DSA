@@ -6,7 +6,7 @@ Structured collection of DSA problems with Java solutions.
 
 | S.No | Problem | Code | Explanation |
 |------|--------|------|------------|
-| 1 | GraphRepresentation | [View Code](./GRAPH/GraphRepresentation.java) | — |
+| 1 | GraphRepresentation | [View Code](./GRAPH/GraphRepresentation.java) | [View Notes](./GRAPH/GraphRepresentation.md) |
 
 ## 📂 STACK
 
