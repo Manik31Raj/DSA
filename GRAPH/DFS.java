@@ -21,7 +21,11 @@ class DFS
 	   int startNode=1;
 	   
        System.out.println("\nDFS  -> "+DFSofGraph(n+1,adj,startNode));
+       System.out.println("\nDFS  -> "+DFSofGraphStack(n+1,adj,startNode));
 	}
+	
+	
+	//Using Recursion Method
 	
 	public static void dfs(int node,boolean[] visited,ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> li){
 	    
@@ -43,6 +47,34 @@ class DFS
 	    return li;
 	    
 	}
+	
+	//Using Iterative Method
+	public static ArrayList<Integer> DFSofGraphStack(int V, ArrayList<ArrayList<Integer>> adj, int start){
+        ArrayList<Integer> li = new ArrayList<>();
+        boolean[] visited = new boolean[V];
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(start);
+
+        while(!stack.isEmpty()){
+           int node = stack.pop();
+
+           if(!visited[node]){
+             visited[node] = true;
+             li.add(node);
+
+            // push neighbors (reverse order for same result as recursion)
+            ArrayList<Integer> neighbors = adj.get(node);
+            for(int i = neighbors.size() - 1; i >= 0; i--){
+                int it = neighbors.get(i);
+                if(!visited[it]){
+                    stack.push(it);
+                }
+            }
+         }
+       }
+       return li;
+    }
 	
 	
 	
