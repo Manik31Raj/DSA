@@ -2,6 +2,12 @@
 
 Structured collection of DSA problems with Java solutions.
 
+## 📂 GRAPH
+
+| S.No | Problem | Code | Explanation |
+|------|--------|------|------------|
+| 1 | GraphRepresentation | [View Code](./GRAPH/GraphRepresentation.java) | — |
+
 ## 📂 STACK
 
 | S.No | Problem | Code | Explanation |
