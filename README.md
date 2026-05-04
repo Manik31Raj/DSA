@@ -10,6 +10,7 @@ Structured collection of DSA problems with Java solutions.
 | 2 | BFS | [View Code](./GRAPH/BFS.java) | [View Notes](./GRAPH/BFS.md) |
 | 3 | DFS | [View Code](./GRAPH/DFS.java) | [View Notes](./GRAPH/DFS.md) |
 | 4 | NumberOfProvinces | [View Code](./GRAPH/NumberOfProvinces.java) | [View Notes](./GRAPH/NumberOfProvinces.md) |
+| 5 | NumberOfIsland | [View Code](./GRAPH/NumberOfIsland.java) | — |
 
 ## 📂 STACK
 
