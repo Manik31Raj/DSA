@@ -33,7 +33,6 @@ class NumberOfIsland
                       };
                       
        System.out.println("Numbr of Island present  -> "+getIsland(grid));
-       System.out.println("Numbr of Island present  -> "+getIslandIterative(grid));
 	}
 	
 	 /*
