@@ -12,7 +12,7 @@ Structured collection of DSA problems with Java solutions.
 | 4 | NumberOfProvinces | [View Code](./GRAPH/NumberOfProvinces.java) | [View Notes](./GRAPH/NumberOfProvinces.md) |
 | 5 | NumberOfIsland | [View Code](./GRAPH/NumberOfIsland.java) | [View Notes](./GRAPH/NumberOfIsland.md) |
 | 6 | FloodFillAlgorithm | [View Code](./GRAPH/FloodFillAlgorithm.java) | [View Notes](./GRAPH/FloodFillAlgorithm.md) |
-| 7 | RottenOranges | [View Code](./GRAPH/RottenOranges.java) | — |
+| 7 | RottenOranges | [View Code](./GRAPH/RottenOranges.java) | [View Notes](./GRAPH/RottenOranges.md) |
 
 ## 📂 STACK
 
