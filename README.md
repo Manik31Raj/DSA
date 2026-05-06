@@ -13,7 +13,7 @@ Structured collection of DSA problems with Java solutions.
 | 5 | NumberOfIsland | [View Code](./GRAPH/NumberOfIsland.java) | [View Notes](./GRAPH/NumberOfIsland.md) |
 | 6 | FloodFillAlgorithm | [View Code](./GRAPH/FloodFillAlgorithm.java) | [View Notes](./GRAPH/FloodFillAlgorithm.md) |
 | 7 | RottenOranges | [View Code](./GRAPH/RottenOranges.java) | [View Notes](./GRAPH/RottenOranges.md) |
-| 8 | DetectACycle | [View Code](./GRAPH/DetectACycle.java) | — |
+| 8 | DetectACycle | [View Code](./GRAPH/DetectACycle.java) | [View Notes](./GRAPH/DetectACycle.md) |
 
 ## 📂 STACK
 
