@@ -16,6 +16,7 @@ Structured collection of DSA problems with Java solutions.
 | 8 | DetectACycle | [View Code](./GRAPH/DetectACycle.java) | [View Notes](./GRAPH/DetectACycle.md) |
 | 9 | 01MatrixProblem | [View Code](./GRAPH/01MatrixProblem.java) | [View Notes](./GRAPH/01MatrixProblem.md) |
 | 10 | SurroundedRegionswithOX | [View Code](./GRAPH/SurroundedRegionswithOX.java) | [View Notes](./GRAPH/SurroundedRegionswithOX.md) |
+| 11 | NumberOfEnclaves | [View Code](./GRAPH/NumberOfEnclaves.java) | — |
 
 ## 📂 STACK
 
