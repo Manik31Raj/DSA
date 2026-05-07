@@ -15,7 +15,7 @@ Structured collection of DSA problems with Java solutions.
 | 7 | RottenOranges | [View Code](./GRAPH/RottenOranges.java) | [View Notes](./GRAPH/RottenOranges.md) |
 | 8 | DetectACycle | [View Code](./GRAPH/DetectACycle.java) | [View Notes](./GRAPH/DetectACycle.md) |
 | 9 | 01MatrixProblem | [View Code](./GRAPH/01MatrixProblem.java) | [View Notes](./GRAPH/01MatrixProblem.md) |
-| 10 | SurroundedRegionswithOX | [View Code](./GRAPH/SurroundedRegionswithOX.java) | — |
+| 10 | SurroundedRegionswithOX | [View Code](./GRAPH/SurroundedRegionswithOX.java) | [View Notes](./GRAPH/SurroundedRegionswithOX.md) |
 
 ## 📂 STACK
 
