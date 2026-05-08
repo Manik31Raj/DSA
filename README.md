@@ -19,7 +19,7 @@ Structured collection of DSA problems with Java solutions.
 | 11 | NumberOfEnclaves | [View Code](./GRAPH/NumberOfEnclaves.java) | [View Notes](./GRAPH/NumberOfEnclaves.md) |
 | 12 | DistinctIslands | [View Code](./GRAPH/DistinctIslands.java) | [View Notes](./GRAPH/DistinctIslands.md) |
 | 13 | BiapartiteGraph | [View Code](./GRAPH/BiapartiteGraph.java) | [View Notes](./GRAPH/BiapartiteGraph.md) |
-| 14 | CycleDetectionInDriectedGraph | [View Code](./GRAPH/CycleDetectionInDriectedGraph.java) | — |
+| 14 | CycleDetectionInDriectedGraph | [View Code](./GRAPH/CycleDetectionInDriectedGraph.java) | [View Notes](./GRAPH/CycleDetectionInDriectedGraph.md) |
 
 ## 📂 STACK
 
