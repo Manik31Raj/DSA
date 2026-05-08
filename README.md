@@ -18,6 +18,7 @@ Structured collection of DSA problems with Java solutions.
 | 10 | SurroundedRegionswithOX | [View Code](./GRAPH/SurroundedRegionswithOX.java) | [View Notes](./GRAPH/SurroundedRegionswithOX.md) |
 | 11 | NumberOfEnclaves | [View Code](./GRAPH/NumberOfEnclaves.java) | [View Notes](./GRAPH/NumberOfEnclaves.md) |
 | 12 | DistinctIslands | [View Code](./GRAPH/DistinctIslands.java) | [View Notes](./GRAPH/DistinctIslands.md) |
+| 13 | BiapartiteGraph | [View Code](./GRAPH/BiapartiteGraph.java) | — |
 
 ## 📂 STACK
 
