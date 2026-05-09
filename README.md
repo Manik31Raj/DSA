@@ -22,7 +22,7 @@ Structured collection of DSA problems with Java solutions.
 | 14 | CycleDetectionInDriectedGraph | [View Code](./GRAPH/CycleDetectionInDriectedGraph.java) | [View Notes](./GRAPH/CycleDetectionInDriectedGraph.md) |
 | 15 | EventualSafeNodes | [View Code](./GRAPH/EventualSafeNodes.java) | [View Notes](./GRAPH/EventualSafeNodes.md) |
 | 16 | TopoSort | [View Code](./GRAPH/TopoSort.java) | [View Notes](./GRAPH/TopoSort.md) |
-| 17 | KahnAlgorithm | [View Code](./GRAPH/KahnAlgorithm.java) | — |
+| 17 | KahnAlgorithm | [View Code](./GRAPH/KahnAlgorithm.java) | [View Notes](./GRAPH/KahnAlgorithm.md) |
 
 ## 📂 STACK
 
