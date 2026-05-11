@@ -15,20 +15,20 @@ class AlienDictionary
 {
 	public static void main (String[] args)
 	{
-	  String[] strArr = {
-    "wrt",
-    "wrf",
-    "er",
-    "ett",
-    "rftt",
-    "rfzz",
-    "zg",
-    "zga",
-    "zgb",
-    "zx"
-};
+	    String[] strArr = {
+                          "wrt",
+                          "wrf",
+                          "er",
+                          "ett",
+                          "rftt",
+                          "rfzz",
+                          "zg",
+                          "zga",
+                          "zgb",
+                          "zx"
+                       };
 
-int k = 26;
+       int k = 26;
 	   
 	   char[] chMap=new char[k];
 	   for(int i=0;i<k;i++){
