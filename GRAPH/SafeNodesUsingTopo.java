@@ -27,7 +27,7 @@ class SafeNodesUsingTopo
 	   
 	}
 	
-	//reverse-edges
+	//reverse-edges to apply indegree 
 	private static void reverseGraphEdges(ArrayList<ArrayList<Integer>> adj,ArrayList<ArrayList<Integer>> rev){
 	    
 	    for (int i = 0; i < adj.size(); i++) {
