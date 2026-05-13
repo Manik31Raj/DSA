@@ -26,7 +26,7 @@ Structured collection of DSA problems with Java solutions.
 | 18 | SafeNodesUsingTopo | [View Code](./GRAPH/SafeNodesUsingTopo.java) | [View Notes](./GRAPH/SafeNodesUsingTopo.md) |
 | 19 | AlienDictionary | [View Code](./GRAPH/AlienDictionary.java) | [View Notes](./GRAPH/AlienDictionary.md) |
 | 20 | ShortestPAthInDAG | [View Code](./GRAPH/ShortestPAthInDAG.java) | [View Notes](./GRAPH/ShortestPAthInDAG.md) |
-| 21 | ShortestPathUndirectedGraph | [View Code](./GRAPH/ShortestPathUndirectedGraph.java) | — |
+| 21 | ShortestPathUndirectedGraph | [View Code](./GRAPH/ShortestPathUndirectedGraph.java) | [View Notes](./GRAPH/ShortestPathUndirectedGraph.md) |
 
 ## 📂 STACK
 
