@@ -25,6 +25,7 @@ Structured collection of DSA problems with Java solutions.
 | 17 | KahnAlgorithm | [View Code](./GRAPH/KahnAlgorithm.java) | [View Notes](./GRAPH/KahnAlgorithm.md) |
 | 18 | SafeNodesUsingTopo | [View Code](./GRAPH/SafeNodesUsingTopo.java) | [View Notes](./GRAPH/SafeNodesUsingTopo.md) |
 | 19 | AlienDictionary | [View Code](./GRAPH/AlienDictionary.java) | [View Notes](./GRAPH/AlienDictionary.md) |
+| 20 | ShortestPAthInDAG | [View Code](./GRAPH/ShortestPAthInDAG.java) | — |
 
 ## 📂 STACK
 
