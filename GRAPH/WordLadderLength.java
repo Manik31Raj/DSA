@@ -19,7 +19,7 @@ class WordLadderLength
 	   String endWord="cog";
 	   Set<String> wordList=new HashSet<>(Set.of("hot","dot","dog","lot","log","cog"));
 	   
-	   System.out.println(wordLadder(startWord,endWord,wordList));
+	   System.out.println(wordLadderLength(startWord,endWord,wordList));
 	}
 	
 	public static int wordLadderLength(String startWord,String endWord,Set<String> wordList){
