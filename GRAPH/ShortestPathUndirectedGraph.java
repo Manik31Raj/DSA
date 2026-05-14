@@ -22,7 +22,11 @@ class ShortestPathUndirectedGraph
 	   int i=0;
 	   System.out.println("\nShortest path from source Node("+startNode + ")\nNODE     :  MIN DISTANCE");
 	   for(long x:shortestPath(n,adj,startNode)){
-	       System.out.println(" "+i++ + "       :       "+x);
+	       if(x==Long.MAX_VALUE){
+	           System.out.println(" "+i++ + "       :       -1");
+	       }else{
+	           System.out.println(" "+i++ + "       :       "+x);
+	       }
 	   }
 	   
 	}
