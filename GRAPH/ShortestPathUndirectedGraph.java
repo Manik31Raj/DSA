@@ -20,7 +20,7 @@ class ShortestPathUndirectedGraph
 	   graph(adj,n-1);
 	   int startNode=3;
 	   int i=0;
-	   System.out.println("Shortest path from sorce "+startNode + "\nNODE     :  MIN DISTANCE");
+	   System.out.println("\nShortest path from source Node("+startNode + ")\nNODE     :  MIN DISTANCE");
 	   for(long x:shortestPath(n,adj,startNode)){
 	       System.out.println(" "+i++ + "       :       "+x);
 	   }
