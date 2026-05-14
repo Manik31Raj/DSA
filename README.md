@@ -27,7 +27,7 @@ Structured collection of DSA problems with Java solutions.
 | 19 | AlienDictionary | [View Code](./GRAPH/AlienDictionary.java) | [View Notes](./GRAPH/AlienDictionary.md) |
 | 20 | ShortestPAthInDAG | [View Code](./GRAPH/ShortestPAthInDAG.java) | [View Notes](./GRAPH/ShortestPAthInDAG.md) |
 | 21 | ShortestPathUndirectedGraph | [View Code](./GRAPH/ShortestPathUndirectedGraph.java) | [View Notes](./GRAPH/ShortestPathUndirectedGraph.md) |
-| 22 | WordLadderLength | [View Code](./GRAPH/WordLadderLength.java) | — |
+| 22 | WordLadderLength | [View Code](./GRAPH/WordLadderLength.java) | [View Notes](./GRAPH/WordLadderLength.md) |
 
 ## 📂 STACK
 
