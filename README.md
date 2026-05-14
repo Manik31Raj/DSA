@@ -28,7 +28,7 @@ Structured collection of DSA problems with Java solutions.
 | 20 | ShortestPAthInDAG | [View Code](./GRAPH/ShortestPAthInDAG.java) | [View Notes](./GRAPH/ShortestPAthInDAG.md) |
 | 21 | ShortestPathUndirectedGraph | [View Code](./GRAPH/ShortestPathUndirectedGraph.java) | [View Notes](./GRAPH/ShortestPathUndirectedGraph.md) |
 | 22 | WordLadderLength | [View Code](./GRAPH/WordLadderLength.java) | [View Notes](./GRAPH/WordLadderLength.md) |
-| 23 | WordLadderSequence | [View Code](./GRAPH/WordLadderSequence.java) | — |
+| 23 | WordLadderSequence | [View Code](./GRAPH/WordLadderSequence.java) | [View Notes](./GRAPH/WordLadderSequence.md) |
 
 ## 📂 STACK
 
