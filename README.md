@@ -31,7 +31,7 @@ Structured collection of DSA problems with Java solutions.
 | 23 | WordLadderSequence | [View Code](./GRAPH/WordLadderSequence.java) | [View Notes](./GRAPH/WordLadderSequence.md) |
 | 24 | WordLadder | [View Code](./GRAPH/WordLadder.java) | [View Notes](./GRAPH/WordLadder.md) |
 | 25 | DijkstrasAlorithUsingPQ | [View Code](./GRAPH/DijkstrasAlorithUsingPQ.java) | [View Notes](./GRAPH/DijkstrasAlorithUsingPQ.md) |
-| 26 | DijkstrasAlorithmUsingSet | [View Code](./GRAPH/DijkstrasAlorithmUsingSet.java) | — |
+| 26 | DijkstrasAlorithmUsingSet | [View Code](./GRAPH/DijkstrasAlorithmUsingSet.java) | [View Notes](./GRAPH/DijkstrasAlorithmUsingSet.md) |
 
 ## 📂 STACK
 
