@@ -34,7 +34,7 @@ Structured collection of DSA problems with Java solutions.
 | 26 | DijkstrasAlorithmUsingSet | [View Code](./GRAPH/DijkstrasAlorithmUsingSet.java) | [View Notes](./GRAPH/DijkstrasAlorithmUsingSet.md) |
 | 27 | DijkstrasAlgorithPrintPath | [View Code](./GRAPH/DijkstrasAlgorithPrintPath.java) | [View Notes](./GRAPH/DijkstrasAlgorithPrintPath.md) |
 | 28 | BinaryMazeShortesPath | [View Code](./GRAPH/BinaryMazeShortesPath.java) | [View Notes](./GRAPH/BinaryMazeShortesPath.md) |
-| 29 | PathWithMinEffort | [View Code](./GRAPH/PathWithMinEffort.java) | — |
+| 29 | PathWithMinEffort | [View Code](./GRAPH/PathWithMinEffort.java) | [View Notes](./GRAPH/PathWithMinEffort.md) |
 
 ## 📂 STACK
 
