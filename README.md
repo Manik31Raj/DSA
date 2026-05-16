@@ -33,7 +33,7 @@ Structured collection of DSA problems with Java solutions.
 | 25 | DijkstrasAlorithUsingPQ | [View Code](./GRAPH/DijkstrasAlorithUsingPQ.java) | [View Notes](./GRAPH/DijkstrasAlorithUsingPQ.md) |
 | 26 | DijkstrasAlorithmUsingSet | [View Code](./GRAPH/DijkstrasAlorithmUsingSet.java) | [View Notes](./GRAPH/DijkstrasAlorithmUsingSet.md) |
 | 27 | DijkstrasAlgorithPrintPath | [View Code](./GRAPH/DijkstrasAlgorithPrintPath.java) | [View Notes](./GRAPH/DijkstrasAlgorithPrintPath.md) |
-| 28 | BinaryMazeShortesPath | [View Code](./GRAPH/BinaryMazeShortesPath.java) | — |
+| 28 | BinaryMazeShortesPath | [View Code](./GRAPH/BinaryMazeShortesPath.java) | [View Notes](./GRAPH/BinaryMazeShortesPath.md) |
 
 ## 📂 STACK
 
