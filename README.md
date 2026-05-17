@@ -36,7 +36,7 @@ Structured collection of DSA problems with Java solutions.
 | 28 | BinaryMazeShortesPath | [View Code](./GRAPH/BinaryMazeShortesPath.java) | [View Notes](./GRAPH/BinaryMazeShortesPath.md) |
 | 29 | PathWithMinEffort | [View Code](./GRAPH/PathWithMinEffort.java) | [View Notes](./GRAPH/PathWithMinEffort.md) |
 | 30 | CheapestFlightWithinKStops | [View Code](./GRAPH/CheapestFlightWithinKStops.java) | [View Notes](./GRAPH/CheapestFlightWithinKStops.md) |
-| 31 | MinimumMultiplicationtoReachEnd | [View Code](./GRAPH/MinimumMultiplicationtoReachEnd.java) | — |
+| 31 | MinimumMultiplicationtoReachEnd | [View Code](./GRAPH/MinimumMultiplicationtoReachEnd.java) | [View Notes](./GRAPH/MinimumMultiplicationtoReachEnd.md) |
 
 ## 📂 STACK
 
