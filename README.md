@@ -37,7 +37,7 @@ Structured collection of DSA problems with Java solutions.
 | 29 | PathWithMinEffort | [View Code](./GRAPH/PathWithMinEffort.java) | [View Notes](./GRAPH/PathWithMinEffort.md) |
 | 30 | CheapestFlightWithinKStops | [View Code](./GRAPH/CheapestFlightWithinKStops.java) | [View Notes](./GRAPH/CheapestFlightWithinKStops.md) |
 | 31 | MinimumMultiplicationtoReachEnd | [View Code](./GRAPH/MinimumMultiplicationtoReachEnd.java) | [View Notes](./GRAPH/MinimumMultiplicationtoReachEnd.md) |
-| 32 | NumberOfWaysToArriveAtDestination | [View Code](./GRAPH/NumberOfWaysToArriveAtDestination.java) | — |
+| 32 | NumberOfWaysToArriveAtDestination | [View Code](./GRAPH/NumberOfWaysToArriveAtDestination.java) | [View Notes](./GRAPH/NumberOfWaysToArriveAtDestination.md) |
 
 ## 📂 STACK
 
