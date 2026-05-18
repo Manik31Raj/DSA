@@ -33,13 +33,13 @@ class Bellman_Ford_Algorithm
 		
 		System.out.println(" Edge     Distance");
 		int i=0;
-		for(int x:bellamFord(edges,V,src)){
+		for(int x:bellmanFord(edges,V,src)){
 		    System.out.println("   "+i++ + "  -->     " + x);
 		}
 
 	}
 	
-	public static int[] bellamFord(ArrayList<ArrayList<Integer>> edges,int V,int src){
+	public static int[] bellmanFord(ArrayList<ArrayList<Integer>> edges,int V,int src){
 	    
 	    int[] dist=new int[V];
 	    Arrays.fill(dist,(int)1e8);
