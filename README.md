@@ -40,7 +40,7 @@ Structured collection of DSA problems with Java solutions.
 | 32 | NumberOfWaysToArriveAtDestination | [View Code](./GRAPH/NumberOfWaysToArriveAtDestination.java) | [View Notes](./GRAPH/NumberOfWaysToArriveAtDestination.md) |
 | 33 | Bellman_Ford_Algorithm | [View Code](./GRAPH/Bellman_Ford_Algorithm.java) | [View Notes](./GRAPH/Bellman_Ford_Algorithm.md) |
 | 34 | FloydWarshallAlgorithm | [View Code](./GRAPH/FloydWarshallAlgorithm.java) | [View Notes](./GRAPH/FloydWarshallAlgorithm.md) |
-| 35 | CityWithSmallestNeighbourAtThreshooldDistance | [View Code](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.java) | — |
+| 35 | CityWithSmallestNeighbourAtThreshooldDistance | [View Code](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.java) | [View Notes](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.md) |
 
 ## 📂 STACK
 
