@@ -39,6 +39,7 @@ Structured collection of DSA problems with Java solutions.
 | 31 | MinimumMultiplicationtoReachEnd | [View Code](./GRAPH/MinimumMultiplicationtoReachEnd.java) | [View Notes](./GRAPH/MinimumMultiplicationtoReachEnd.md) |
 | 32 | NumberOfWaysToArriveAtDestination | [View Code](./GRAPH/NumberOfWaysToArriveAtDestination.java) | [View Notes](./GRAPH/NumberOfWaysToArriveAtDestination.md) |
 | 33 | Bellman_Ford_Algorithm | [View Code](./GRAPH/Bellman_Ford_Algorithm.java) | [View Notes](./GRAPH/Bellman_Ford_Algorithm.md) |
+| 34 | FloydWarshallAlgorithm | [View Code](./GRAPH/FloydWarshallAlgorithm.java) | — |
 
 ## 📂 STACK
 
