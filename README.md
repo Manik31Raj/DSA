@@ -42,6 +42,7 @@ Structured collection of DSA problems with Java solutions.
 | 34 | FloydWarshallAlgorithm | [View Code](./GRAPH/FloydWarshallAlgorithm.java) | [View Notes](./GRAPH/FloydWarshallAlgorithm.md) |
 | 35 | CityWithSmallestNeighbourAtThreshooldDistance | [View Code](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.java) | [View Notes](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.md) |
 | 36 | PrimsAlgorithm | [View Code](./GRAPH/PrimsAlgorithm.java) | [View Notes](./GRAPH/PrimsAlgorithm.md) |
+| 37 | DisjointDefination | [View Code](./GRAPH/DisjointDefination.java) | — |
 
 ## 📂 STACK
 
