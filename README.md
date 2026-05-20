@@ -43,6 +43,7 @@ Structured collection of DSA problems with Java solutions.
 | 35 | CityWithSmallestNeighbourAtThreshooldDistance | [View Code](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.java) | [View Notes](./GRAPH/CityWithSmallestNeighbourAtThreshooldDistance.md) |
 | 36 | PrimsAlgorithm | [View Code](./GRAPH/PrimsAlgorithm.java) | [View Notes](./GRAPH/PrimsAlgorithm.md) |
 | 37 | DisjointDefination | [View Code](./GRAPH/DisjointDefination.java) | [View Notes](./GRAPH/DisjointDefination.md) |
+| 38 | KrusKals_Algorithm | [View Code](./GRAPH/KrusKals_Algorithm.java) | — |
 
 ## 📂 STACK
 
