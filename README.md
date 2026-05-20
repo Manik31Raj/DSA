@@ -45,7 +45,7 @@ Structured collection of DSA problems with Java solutions.
 | 37 | DisjointDefination | [View Code](./GRAPH/DisjointDefination.java) | [View Notes](./GRAPH/DisjointDefination.md) |
 | 38 | KrusKals_Algorithm | [View Code](./GRAPH/KrusKals_Algorithm.java) | [View Notes](./GRAPH/KrusKals_Algorithm.md) |
 | 39 | NumberOfProvincesUSingDSU | [View Code](./GRAPH/NumberOfProvincesUSingDSU.java) | [View Notes](./GRAPH/NumberOfProvincesUSingDSU.md) |
-| 40 | MakingTheGraphConncted | [View Code](./GRAPH/MakingTheGraphConncted.java) | — |
+| 40 | MakingTheGraphConncted | [View Code](./GRAPH/MakingTheGraphConncted.java) | [View Notes](./GRAPH/MakingTheGraphConncted.md) |
 
 ## 📂 STACK
 
