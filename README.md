@@ -44,6 +44,7 @@ Structured collection of DSA problems with Java solutions.
 | 36 | PrimsAlgorithm | [View Code](./GRAPH/PrimsAlgorithm.java) | [View Notes](./GRAPH/PrimsAlgorithm.md) |
 | 37 | DisjointDefination | [View Code](./GRAPH/DisjointDefination.java) | [View Notes](./GRAPH/DisjointDefination.md) |
 | 38 | KrusKals_Algorithm | [View Code](./GRAPH/KrusKals_Algorithm.java) | [View Notes](./GRAPH/KrusKals_Algorithm.md) |
+| 39 | NumberOfProvincesUSingDSU | [View Code](./GRAPH/NumberOfProvincesUSingDSU.java) | — |
 
 ## 📂 STACK
 
