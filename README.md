@@ -46,7 +46,7 @@ Structured collection of DSA problems with Java solutions.
 | 38 | KrusKals_Algorithm | [View Code](./GRAPH/KrusKals_Algorithm.java) | [View Notes](./GRAPH/KrusKals_Algorithm.md) |
 | 39 | NumberOfProvincesUSingDSU | [View Code](./GRAPH/NumberOfProvincesUSingDSU.java) | [View Notes](./GRAPH/NumberOfProvincesUSingDSU.md) |
 | 40 | MakingTheGraphConncted | [View Code](./GRAPH/MakingTheGraphConncted.java) | [View Notes](./GRAPH/MakingTheGraphConncted.md) |
-| 41 | AccountMerge | [View Code](./GRAPH/AccountMerge.java) | — |
+| 41 | AccountMerge | [View Code](./GRAPH/AccountMerge.java) | [View Notes](./GRAPH/AccountMerge.md) |
 
 ## 📂 STACK
 
