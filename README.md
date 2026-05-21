@@ -50,7 +50,7 @@ Structured collection of DSA problems with Java solutions.
 | 42 | NumberOfIslandDSU | [View Code](./GRAPH/NumberOfIslandDSU.java) | [View Notes](./GRAPH/NumberOfIslandDSU.md) |
 | 43 | MakingLargestIsland | [View Code](./GRAPH/MakingLargestIsland.java) | [View Notes](./GRAPH/MakingLargestIsland.md) |
 | 44 | StonesRemoval | [View Code](./GRAPH/StonesRemoval.java) | [View Notes](./GRAPH/StonesRemoval.md) |
-| 45 | StronglyConnectedComponent | [View Code](./GRAPH/StronglyConnectedComponent.java) | — |
+| 45 | StronglyConnectedComponent | [View Code](./GRAPH/StronglyConnectedComponent.java) | [View Notes](./GRAPH/StronglyConnectedComponent.md) |
 
 ## 📂 STACK
 
