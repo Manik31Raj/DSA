@@ -48,7 +48,7 @@ Structured collection of DSA problems with Java solutions.
 | 40 | MakingTheGraphConncted | [View Code](./GRAPH/MakingTheGraphConncted.java) | [View Notes](./GRAPH/MakingTheGraphConncted.md) |
 | 41 | AccountMerge | [View Code](./GRAPH/AccountMerge.java) | [View Notes](./GRAPH/AccountMerge.md) |
 | 42 | NumberOfIslandDSU | [View Code](./GRAPH/NumberOfIslandDSU.java) | [View Notes](./GRAPH/NumberOfIslandDSU.md) |
-| 43 | MakingLargestIsland | [View Code](./GRAPH/MakingLargestIsland.java) | — |
+| 43 | MakingLargestIsland | [View Code](./GRAPH/MakingLargestIsland.java) | [View Notes](./GRAPH/MakingLargestIsland.md) |
 
 ## 📂 STACK
 
