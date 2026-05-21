@@ -47,7 +47,7 @@ Structured collection of DSA problems with Java solutions.
 | 39 | NumberOfProvincesUSingDSU | [View Code](./GRAPH/NumberOfProvincesUSingDSU.java) | [View Notes](./GRAPH/NumberOfProvincesUSingDSU.md) |
 | 40 | MakingTheGraphConncted | [View Code](./GRAPH/MakingTheGraphConncted.java) | [View Notes](./GRAPH/MakingTheGraphConncted.md) |
 | 41 | AccountMerge | [View Code](./GRAPH/AccountMerge.java) | [View Notes](./GRAPH/AccountMerge.md) |
-| 42 | NumberOfIslandDSU | [View Code](./GRAPH/NumberOfIslandDSU.java) | — |
+| 42 | NumberOfIslandDSU | [View Code](./GRAPH/NumberOfIslandDSU.java) | [View Notes](./GRAPH/NumberOfIslandDSU.md) |
 
 ## 📂 STACK
 
