@@ -49,6 +49,7 @@ Structured collection of DSA problems with Java solutions.
 | 41 | AccountMerge | [View Code](./GRAPH/AccountMerge.java) | [View Notes](./GRAPH/AccountMerge.md) |
 | 42 | NumberOfIslandDSU | [View Code](./GRAPH/NumberOfIslandDSU.java) | [View Notes](./GRAPH/NumberOfIslandDSU.md) |
 | 43 | MakingLargestIsland | [View Code](./GRAPH/MakingLargestIsland.java) | [View Notes](./GRAPH/MakingLargestIsland.md) |
+| 44 | StonesRemoval | [View Code](./GRAPH/StonesRemoval.java) | — |
 
 ## 📂 STACK
 
