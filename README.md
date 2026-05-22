@@ -52,7 +52,7 @@ Structured collection of DSA problems with Java solutions.
 | 44 | StonesRemoval | [View Code](./GRAPH/StonesRemoval.java) | [View Notes](./GRAPH/StonesRemoval.md) |
 | 45 | StronglyConnectedComponent | [View Code](./GRAPH/StronglyConnectedComponent.java) | [View Notes](./GRAPH/StronglyConnectedComponent.md) |
 | 46 | CriticalComponents | [View Code](./GRAPH/CriticalComponents.java) | [View Notes](./GRAPH/CriticalComponents.md) |
-| 47 | ArticulationPoints | [View Code](./GRAPH/ArticulationPoints.java) | — |
+| 47 | ArticulationPoints | [View Code](./GRAPH/ArticulationPoints.java) | [View Notes](./GRAPH/ArticulationPoints.md) |
 
 ## 📂 STACK
 
