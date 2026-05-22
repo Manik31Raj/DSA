@@ -51,6 +51,7 @@ Structured collection of DSA problems with Java solutions.
 | 43 | MakingLargestIsland | [View Code](./GRAPH/MakingLargestIsland.java) | [View Notes](./GRAPH/MakingLargestIsland.md) |
 | 44 | StonesRemoval | [View Code](./GRAPH/StonesRemoval.java) | [View Notes](./GRAPH/StonesRemoval.md) |
 | 45 | StronglyConnectedComponent | [View Code](./GRAPH/StronglyConnectedComponent.java) | [View Notes](./GRAPH/StronglyConnectedComponent.md) |
+| 46 | CriticalComponents | [View Code](./GRAPH/CriticalComponents.java) | — |
 
 ## 📂 STACK
 
