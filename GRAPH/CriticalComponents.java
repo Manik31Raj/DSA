@@ -15,7 +15,7 @@ class CriticalComponents
 		createAdjacencyList(edges,V,adj);
 		print(adj);
 		
-		System.out.println(criticalConnections(start,V+1,adj));
+		System.out.println("Bridges  -> "+criticalConnections(start,V+1,adj));
 	}
 	
 	public static List<List<Integer>> criticalConnections(int start,int V,ArrayList<ArrayList<Integer>> adj){
