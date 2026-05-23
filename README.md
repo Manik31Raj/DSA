@@ -58,7 +58,7 @@ Structured collection of DSA problems with Java solutions.
 
 | S.No | Problem | Code | Explanation |
 |------|--------|------|------------|
-| 1 | LinkedList | [View Code](./LINKED LIST/LinkedList.java) | — |
+| 1 | LinkedList | [View Code](./LINKED LIST/LinkedList.java) | [View Notes](./LINKED LIST/LinkedList.md) |
 
 ## 📂 QUEUE
 
