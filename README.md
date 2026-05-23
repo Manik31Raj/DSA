@@ -54,6 +54,12 @@ Structured collection of DSA problems with Java solutions.
 | 46 | CriticalComponents | [View Code](./GRAPH/CriticalComponents.java) | [View Notes](./GRAPH/CriticalComponents.md) |
 | 47 | ArticulationPoints | [View Code](./GRAPH/ArticulationPoints.java) | [View Notes](./GRAPH/ArticulationPoints.md) |
 
+## 📂 QUEUE
+
+| S.No | Problem | Code | Explanation |
+|------|--------|------|------------|
+| 1 | QueueUsingArray | [View Code](./QUEUE/QueueUsingArray.java) | — |
+
 ## 📂 STACK
 
 | S.No | Problem | Code | Explanation |
