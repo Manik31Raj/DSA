@@ -54,11 +54,11 @@ Structured collection of DSA problems with Java solutions.
 | 46 | CriticalComponents | [View Code](./GRAPH/CriticalComponents.java) | [View Notes](./GRAPH/CriticalComponents.md) |
 | 47 | ArticulationPoints | [View Code](./GRAPH/ArticulationPoints.java) | [View Notes](./GRAPH/ArticulationPoints.md) |
 
-## 📂 LINKED LIST
+## 📂 LINKED_LIST
 
 | S.No | Problem | Code | Explanation |
 |------|--------|------|------------|
-| 1 | LinkedList | [View Code](./LINKED LIST/LinkedList.java) | [View Notes](./LINKED LIST/LinkedList.md) |
+| 1 | LinkedList | [View Code](./LINKED_LIST/LinkedList.java) | [View Notes](./LINKED_LIST/LinkedList.md) |
 
 ## 📂 QUEUE
 
