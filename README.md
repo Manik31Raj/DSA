@@ -58,7 +58,7 @@ Structured collection of DSA problems with Java solutions.
 
 | S.No | Problem | Code | Explanation |
 |------|--------|------|------------|
-| 1 | QueueUsingArray | [View Code](./QUEUE/QueueUsingArray.java) | — |
+| 1 | QueueUsingArray | [View Code](./QUEUE/QueueUsingArray.java) | [View Notes](./QUEUE/QueueUsingArray.md) |
 
 ## 📂 STACK
 
