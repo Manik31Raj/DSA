@@ -61,6 +61,7 @@ Structured collection of DSA problems with Java solutions.
 | 1 | LinkedList | [View Code](./LINKED_LIST/LinkedList.java) | [View Notes](./LINKED_LIST/LinkedList.md) |
 | 2 | Deletion | [View Code](./LINKED_LIST/Deletion.java) | [View Notes](./LINKED_LIST/Deletion.md) |
 | 3 | Insertion | [View Code](./LINKED_LIST/Insertion.java) | [View Notes](./LINKED_LIST/Insertion.md) |
+| 4 | DoublyLinkedList | [View Code](./LINKED_LIST/DoublyLinkedList.java) | — |
 
 ## 📂 QUEUE
 
