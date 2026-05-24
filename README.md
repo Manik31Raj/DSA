@@ -62,7 +62,7 @@ Structured collection of DSA problems with Java solutions.
 | 2 | Deletion | [View Code](./LINKED_LIST/Deletion.java) | [View Notes](./LINKED_LIST/Deletion.md) |
 | 3 | Insertion | [View Code](./LINKED_LIST/Insertion.java) | [View Notes](./LINKED_LIST/Insertion.md) |
 | 4 | DoublyLinkedList | [View Code](./LINKED_LIST/DoublyLinkedList.java) | [View Notes](./LINKED_LIST/DoublyLinkedList.md) |
-| 5 | DeletionInDLL | [View Code](./LINKED_LIST/DeletionInDLL.java) | — |
+| 5 | DeletionInDLL | [View Code](./LINKED_LIST/DeletionInDLL.java) | [View Notes](./LINKED_LIST/DeletionInDLL.md) |
 
 ## 📂 QUEUE
 
