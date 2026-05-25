@@ -65,7 +65,7 @@ Structured collection of DSA problems with Java solutions.
 | 5 | DeletionInDLL | [View Code](./LINKED_LIST/DeletionInDLL.java) | [View Notes](./LINKED_LIST/DeletionInDLL.md) |
 | 6 | InsertionInDLL | [View Code](./LINKED_LIST/InsertionInDLL.java) | [View Notes](./LINKED_LIST/InsertionInDLL.md) |
 | 7 | ReverseDLL | [View Code](./LINKED_LIST/ReverseDLL.java) | [View Notes](./LINKED_LIST/ReverseDLL.md) |
-| 8 | AddTwoNumbeerStoredInLLInReverseOrder | [View Code](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.java) | — |
+| 8 | AddTwoNumbeerStoredInLLInReverseOrder | [View Code](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.java) | [View Notes](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.md) |
 
 ## 📂 QUEUE
 
