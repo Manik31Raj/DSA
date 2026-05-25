@@ -64,6 +64,7 @@ Structured collection of DSA problems with Java solutions.
 | 4 | DoublyLinkedList | [View Code](./LINKED_LIST/DoublyLinkedList.java) | [View Notes](./LINKED_LIST/DoublyLinkedList.md) |
 | 5 | DeletionInDLL | [View Code](./LINKED_LIST/DeletionInDLL.java) | [View Notes](./LINKED_LIST/DeletionInDLL.md) |
 | 6 | InsertionInDLL | [View Code](./LINKED_LIST/InsertionInDLL.java) | [View Notes](./LINKED_LIST/InsertionInDLL.md) |
+| 7 | ReverseDLL | [View Code](./LINKED_LIST/ReverseDLL.java) | — |
 
 ## 📂 QUEUE
 
