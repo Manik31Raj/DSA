@@ -66,7 +66,7 @@ Structured collection of DSA problems with Java solutions.
 | 6 | InsertionInDLL | [View Code](./LINKED_LIST/InsertionInDLL.java) | [View Notes](./LINKED_LIST/InsertionInDLL.md) |
 | 7 | ReverseDLL | [View Code](./LINKED_LIST/ReverseDLL.java) | [View Notes](./LINKED_LIST/ReverseDLL.md) |
 | 8 | AddTwoNumbeerStoredInLLInReverseOrder | [View Code](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.java) | [View Notes](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.md) |
-| 9 | ArrangeOddEvenIndexees | [View Code](./LINKED_LIST/ArrangeOddEvenIndexees.java) | — |
+| 9 | ArrangeOddEvenIndexees | [View Code](./LINKED_LIST/ArrangeOddEvenIndexees.java) | [View Notes](./LINKED_LIST/ArrangeOddEvenIndexees.md) |
 
 ## 📂 QUEUE
 
