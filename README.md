@@ -68,6 +68,7 @@ Structured collection of DSA problems with Java solutions.
 | 8 | AddTwoNumbeerStoredInLLInReverseOrder | [View Code](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.java) | [View Notes](./LINKED_LIST/AddTwoNumbeerStoredInLLInReverseOrder.md) |
 | 9 | ArrangeOddEvenIndexees | [View Code](./LINKED_LIST/ArrangeOddEvenIndexees.java) | [View Notes](./LINKED_LIST/ArrangeOddEvenIndexees.md) |
 | 10 | SortLL01&2 | [View Code](./LINKED_LIST/SortLL01&2.java) | [View Notes](./LINKED_LIST/SortLL01&2.md) |
+| 11 | RemoveKthNodeFromEnd | [View Code](./LINKED_LIST/RemoveKthNodeFromEnd.java) | — |
 
 ## 📂 QUEUE
 
