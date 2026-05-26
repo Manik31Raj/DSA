@@ -70,6 +70,7 @@ Structured collection of DSA problems with Java solutions.
 | 10 | SortLL01&2 | [View Code](./LINKED_LIST/SortLL01&2.java) | [View Notes](./LINKED_LIST/SortLL01&2.md) |
 | 11 | RemoveKthNodeFromEnd | [View Code](./LINKED_LIST/RemoveKthNodeFromEnd.java) | [View Notes](./LINKED_LIST/RemoveKthNodeFromEnd.md) |
 | 12 | ReverseLL | [View Code](./LINKED_LIST/ReverseLL.java) | [View Notes](./LINKED_LIST/ReverseLL.md) |
+| 13 | PalindromeCheck | [View Code](./LINKED_LIST/PalindromeCheck.java) | — |
 
 ## 📂 QUEUE
 
