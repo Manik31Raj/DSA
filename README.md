@@ -72,6 +72,7 @@ Structured collection of DSA problems with Java solutions.
 | 12 | ReverseLL | [View Code](./LINKED_LIST/ReverseLL.java) | [View Notes](./LINKED_LIST/ReverseLL.md) |
 | 13 | PalindromeCheck | [View Code](./LINKED_LIST/PalindromeCheck.java) | [View Notes](./LINKED_LIST/PalindromeCheck.md) |
 | 14 | AddOneToLL | [View Code](./LINKED_LIST/AddOneToLL.java) | [View Notes](./LINKED_LIST/AddOneToLL.md) |
+| 15 | IntersectionPointOfTwoLL | [View Code](./LINKED_LIST/IntersectionPointOfTwoLL.java) | — |
 
 ## 📂 QUEUE
 
