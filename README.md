@@ -73,7 +73,7 @@ Structured collection of DSA problems with Java solutions.
 | 13 | PalindromeCheck | [View Code](./LINKED_LIST/PalindromeCheck.java) | [View Notes](./LINKED_LIST/PalindromeCheck.md) |
 | 14 | AddOneToLL | [View Code](./LINKED_LIST/AddOneToLL.java) | [View Notes](./LINKED_LIST/AddOneToLL.md) |
 | 15 | IntersectionPointOfTwoLL | [View Code](./LINKED_LIST/IntersectionPointOfTwoLL.java) | [View Notes](./LINKED_LIST/IntersectionPointOfTwoLL.md) |
-| 16 | Tortoise&HareAlgoForFindingMiddle | [View Code](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.java) | — |
+| 16 | Tortoise&HareAlgoForFindingMiddle | [View Code](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.java) | [View Notes](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.md) |
 
 ## 📂 QUEUE
 
