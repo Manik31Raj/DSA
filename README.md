@@ -71,7 +71,7 @@ Structured collection of DSA problems with Java solutions.
 | 11 | RemoveKthNodeFromEnd | [View Code](./LINKED_LIST/RemoveKthNodeFromEnd.java) | [View Notes](./LINKED_LIST/RemoveKthNodeFromEnd.md) |
 | 12 | ReverseLL | [View Code](./LINKED_LIST/ReverseLL.java) | [View Notes](./LINKED_LIST/ReverseLL.md) |
 | 13 | PalindromeCheck | [View Code](./LINKED_LIST/PalindromeCheck.java) | [View Notes](./LINKED_LIST/PalindromeCheck.md) |
-| 14 | AddOneToLL | [View Code](./LINKED_LIST/AddOneToLL.java) | — |
+| 14 | AddOneToLL | [View Code](./LINKED_LIST/AddOneToLL.java) | [View Notes](./LINKED_LIST/AddOneToLL.md) |
 
 ## 📂 QUEUE
 
