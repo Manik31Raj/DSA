@@ -18,7 +18,7 @@ class Node{
     }
 }
 
-class DetectACycleInLL
+class FloydAlgorithmToDetectCycle
 {
 	public static void main (String[] args) 
 	{
