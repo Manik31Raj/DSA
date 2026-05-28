@@ -74,8 +74,8 @@ Structured collection of DSA problems with Java solutions.
 | 14 | AddOneToLL | [View Code](./LINKED_LIST/AddOneToLL.java) | [View Notes](./LINKED_LIST/AddOneToLL.md) |
 | 15 | IntersectionPointOfTwoLL | [View Code](./LINKED_LIST/IntersectionPointOfTwoLL.java) | [View Notes](./LINKED_LIST/IntersectionPointOfTwoLL.md) |
 | 16 | Tortoise&HareAlgoForFindingMiddle | [View Code](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.java) | [View Notes](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.md) |
-| 17 | DetectACycleInLL | [View Code](./LINKED_LIST/DetectACycleInLL.java) | — |
-| 18 | LengthOfCycle | [View Code](./LINKED_LIST/LengthOfCycle.java) | [View Notes](./LINKED_LIST/LengthOfCycle.md) |
+| 17 | LengthOfCycle | [View Code](./LINKED_LIST/LengthOfCycle.java) | [View Notes](./LINKED_LIST/LengthOfCycle.md) |
+| 18 | FloydAlgorithmToDetectCycle | [View Code](./LINKED_LIST/FloydAlgorithmToDetectCycle.java) | — |
 
 ## 📂 QUEUE
 
