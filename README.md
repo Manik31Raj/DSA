@@ -76,7 +76,7 @@ Structured collection of DSA problems with Java solutions.
 | 16 | Tortoise&HareAlgoForFindingMiddle | [View Code](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.java) | [View Notes](./LINKED_LIST/Tortoise&HareAlgoForFindingMiddle.md) |
 | 17 | LengthOfCycle | [View Code](./LINKED_LIST/LengthOfCycle.java) | [View Notes](./LINKED_LIST/LengthOfCycle.md) |
 | 18 | FloydAlgorithmToDetectCycle | [View Code](./LINKED_LIST/FloydAlgorithmToDetectCycle.java) | [View Notes](./LINKED_LIST/FloydAlgorithmToDetectCycle.md) |
-| 19 | DeleteMiddleNode | [View Code](./LINKED_LIST/DeleteMiddleNode.java) | — |
+| 19 | DeleteMiddleNode | [View Code](./LINKED_LIST/DeleteMiddleNode.java) | [View Notes](./LINKED_LIST/DeleteMiddleNode.md) |
 
 ## 📂 QUEUE
 
