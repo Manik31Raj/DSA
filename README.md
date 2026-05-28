@@ -77,7 +77,7 @@ Structured collection of DSA problems with Java solutions.
 | 17 | LengthOfCycle | [View Code](./LINKED_LIST/LengthOfCycle.java) | [View Notes](./LINKED_LIST/LengthOfCycle.md) |
 | 18 | FloydAlgorithmToDetectCycle | [View Code](./LINKED_LIST/FloydAlgorithmToDetectCycle.java) | [View Notes](./LINKED_LIST/FloydAlgorithmToDetectCycle.md) |
 | 19 | DeleteMiddleNode | [View Code](./LINKED_LIST/DeleteMiddleNode.java) | [View Notes](./LINKED_LIST/DeleteMiddleNode.md) |
-| 20 | DeleteAllOcuuranceOfKeyInDll | [View Code](./LINKED_LIST/DeleteAllOcuuranceOfKeyInDll.java) | — |
+| 20 | DeleteAllOcuuranceOfKeyInDll | [View Code](./LINKED_LIST/DeleteAllOcuuranceOfKeyInDll.java) | [View Notes](./LINKED_LIST/DeleteAllOcuuranceOfKeyInDll.md) |
 
 ## 📂 QUEUE
 
