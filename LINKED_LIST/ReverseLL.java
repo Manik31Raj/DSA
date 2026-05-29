@@ -33,7 +33,7 @@ class ReverseLL
 		//print(head);
 		
 		head=reverseLLRecurrsion(head);
-		System.out.print("Reverse Linked     : ");
+		System.out.print("Reverse Linked  List    : ");
 		print(head);
 	
 		
