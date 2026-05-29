@@ -80,7 +80,7 @@ Structured collection of DSA problems with Java solutions.
 | 20 | DeleteAllOcuuranceOfKeyInDll | [View Code](./LINKED_LIST/DeleteAllOcuuranceOfKeyInDll.java) | [View Notes](./LINKED_LIST/DeleteAllOcuuranceOfKeyInDll.md) |
 | 21 | PairSumInDLL | [View Code](./LINKED_LIST/PairSumInDLL.java) | [View Notes](./LINKED_LIST/PairSumInDLL.md) |
 | 22 | RemoveDuplicatesFromDLL | [View Code](./LINKED_LIST/RemoveDuplicatesFromDLL.java) | [View Notes](./LINKED_LIST/RemoveDuplicatesFromDLL.md) |
-| 23 | KReverseLL | [View Code](./LINKED_LIST/KReverseLL.java) | — |
+| 23 | KReverseLL | [View Code](./LINKED_LIST/KReverseLL.java) | [View Notes](./LINKED_LIST/KReverseLL.md) |
 
 ## 📂 QUEUE
 
