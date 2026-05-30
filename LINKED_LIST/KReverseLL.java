@@ -25,7 +25,7 @@ class KReverseLL
 		int[] arr={1,2,3,4,5,6,7,8,9,10};
 		
 		Node head=convertArrayToLL(arr);
-		System.out.print("LInked list             : ");
+		System.out.print("Linked list             : ");
 		print(head);
 	
 		head=reverseNodesInKGroup(head,3);
