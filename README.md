@@ -81,6 +81,7 @@ Structured collection of DSA problems with Java solutions.
 | 21 | PairSumInDLL | [View Code](./LINKED_LIST/PairSumInDLL.java) | [View Notes](./LINKED_LIST/PairSumInDLL.md) |
 | 22 | RemoveDuplicatesFromDLL | [View Code](./LINKED_LIST/RemoveDuplicatesFromDLL.java) | [View Notes](./LINKED_LIST/RemoveDuplicatesFromDLL.md) |
 | 23 | KReverseLL | [View Code](./LINKED_LIST/KReverseLL.java) | [View Notes](./LINKED_LIST/KReverseLL.md) |
+| 24 | RotateLL | [View Code](./LINKED_LIST/RotateLL.java) | — |
 
 ## 📂 QUEUE
 
