@@ -84,7 +84,7 @@ Structured collection of DSA problems with Java solutions.
 | 24 | RotateLL | [View Code](./LINKED_LIST/RotateLL.java) | [View Notes](./LINKED_LIST/RotateLL.md) |
 | 25 | MergeTwoSortedLL | [View Code](./LINKED_LIST/MergeTwoSortedLL.java) | [View Notes](./LINKED_LIST/MergeTwoSortedLL.md) |
 | 26 | FlatteningMultiLevelLL | [View Code](./LINKED_LIST/FlatteningMultiLevelLL.java) | [View Notes](./LINKED_LIST/FlatteningMultiLevelLL.md) |
-| 27 | MergeKSortedLL | [View Code](./LINKED_LIST/MergeKSortedLL.java) | — |
+| 27 | MergeKSortedLL | [View Code](./LINKED_LIST/MergeKSortedLL.java) | [View Notes](./LINKED_LIST/MergeKSortedLL.md) |
 
 ## 📂 QUEUE
 
