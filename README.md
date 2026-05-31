@@ -83,7 +83,7 @@ Structured collection of DSA problems with Java solutions.
 | 23 | KReverseLL | [View Code](./LINKED_LIST/KReverseLL.java) | [View Notes](./LINKED_LIST/KReverseLL.md) |
 | 24 | RotateLL | [View Code](./LINKED_LIST/RotateLL.java) | [View Notes](./LINKED_LIST/RotateLL.md) |
 | 25 | MergeTwoSortedLL | [View Code](./LINKED_LIST/MergeTwoSortedLL.java) | [View Notes](./LINKED_LIST/MergeTwoSortedLL.md) |
-| 26 | FlatteningMultiLevelLL | [View Code](./LINKED_LIST/FlatteningMultiLevelLL.java) | — |
+| 26 | FlatteningMultiLevelLL | [View Code](./LINKED_LIST/FlatteningMultiLevelLL.java) | [View Notes](./LINKED_LIST/FlatteningMultiLevelLL.md) |
 
 ## 📂 QUEUE
 
