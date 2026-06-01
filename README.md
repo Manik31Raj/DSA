@@ -86,7 +86,7 @@ Structured collection of DSA problems with Java solutions.
 | 26 | FlatteningMultiLevelLL | [View Code](./LINKED_LIST/FlatteningMultiLevelLL.java) | [View Notes](./LINKED_LIST/FlatteningMultiLevelLL.md) |
 | 27 | MergeKSortedLL | [View Code](./LINKED_LIST/MergeKSortedLL.java) | [View Notes](./LINKED_LIST/MergeKSortedLL.md) |
 | 28 | SortALinkedList | [View Code](./LINKED_LIST/SortALinkedList.java) | [View Notes](./LINKED_LIST/SortALinkedList.md) |
-| 29 | BroswerHistoryDLL | [View Code](./LINKED_LIST/BroswerHistoryDLL.java) | — |
+| 29 | BroswerHistoryDLL | [View Code](./LINKED_LIST/BroswerHistoryDLL.java) | [View Notes](./LINKED_LIST/BroswerHistoryDLL.md) |
 
 ## 📂 QUEUE
 
