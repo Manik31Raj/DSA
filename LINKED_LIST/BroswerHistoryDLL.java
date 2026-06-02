@@ -60,6 +60,7 @@ class Browser{
     }
 }
 
+// general browser impl
 class BroswerHistoryDLL
 {
 	public static void main (String[] args) throws java.lang.Exception
