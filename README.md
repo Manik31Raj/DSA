@@ -2,6 +2,12 @@
 
 Structured collection of DSA problems with Java solutions.
 
+## 📂 BIT_MANIPULATION
+
+| S.No | Problem | Code | Explanation |
+|------|--------|------|------------|
+| 1 | BasicIntergchangeBInaryDecimal | [View Code](./BIT_MANIPULATION/BasicIntergchangeBInaryDecimal.java) | — |
+
 ## 📂 GRAPH
 
 | S.No | Problem | Code | Explanation |
