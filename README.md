@@ -7,6 +7,7 @@ Structured collection of DSA problems with Java solutions.
 | S.No | Problem | Code | Explanation |
 |------|--------|------|------------|
 | 1 | BasicIntergchangeBInaryDecimal | [View Code](./BIT_MANIPULATION/BasicIntergchangeBInaryDecimal.java) | [View Notes](./BIT_MANIPULATION/BasicIntergchangeBInaryDecimal.md) |
+| 2 | SwapTwoNumbers | [View Code](./BIT_MANIPULATION/SwapTwoNumbers.java) | — |
 
 ## 📂 GRAPH
 
