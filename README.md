@@ -10,7 +10,7 @@ Structured collection of DSA problems with Java solutions.
 | 2 | SwapTwoNumbers | [View Code](./BIT_MANIPULATION/SwapTwoNumbers.java) | [View Notes](./BIT_MANIPULATION/SwapTwoNumbers.md) |
 | 3 | BitTricks | [View Code](./BIT_MANIPULATION/BitTricks.java) | [View Notes](./BIT_MANIPULATION/BitTricks.md) |
 | 4 | MinimumBitFlipRequired | [View Code](./BIT_MANIPULATION/MinimumBitFlipRequired.java) | [View Notes](./BIT_MANIPULATION/MinimumBitFlipRequired.md) |
-| 5 | PowerSet | [View Code](./BIT_MANIPULATION/PowerSet.java) | — |
+| 5 | PowerSet | [View Code](./BIT_MANIPULATION/PowerSet.java) | [View Notes](./BIT_MANIPULATION/PowerSet.md) |
 
 ## 📂 GRAPH
 
