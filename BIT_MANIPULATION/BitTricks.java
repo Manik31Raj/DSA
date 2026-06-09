@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class BItTricks
+class BitTricks
 {
 	public static void main (String[] args) 
 	{
