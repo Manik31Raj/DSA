@@ -9,7 +9,7 @@ Structured collection of DSA problems with Java solutions.
 | 1 | BasicIntergchangeBInaryDecimal | [View Code](./BIT_MANIPULATION/BasicIntergchangeBInaryDecimal.java) | [View Notes](./BIT_MANIPULATION/BasicIntergchangeBInaryDecimal.md) |
 | 2 | SwapTwoNumbers | [View Code](./BIT_MANIPULATION/SwapTwoNumbers.java) | [View Notes](./BIT_MANIPULATION/SwapTwoNumbers.md) |
 | 3 | BitTricks | [View Code](./BIT_MANIPULATION/BitTricks.java) | [View Notes](./BIT_MANIPULATION/BitTricks.md) |
-| 4 | MinimumBitFlipRequired | [View Code](./BIT_MANIPULATION/MinimumBitFlipRequired.java) | — |
+| 4 | MinimumBitFlipRequired | [View Code](./BIT_MANIPULATION/MinimumBitFlipRequired.java) | [View Notes](./BIT_MANIPULATION/MinimumBitFlipRequired.md) |
 
 ## 📂 GRAPH
 
