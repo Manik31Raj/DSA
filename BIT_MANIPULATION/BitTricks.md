@@ -419,7 +419,7 @@ Output:
 >> → Divide by 2
 
 n&(n-1)
-→ Removes last 1
+→ Removes last 1(set)
 
 (n&(n-1))==0
 → Power of 2
