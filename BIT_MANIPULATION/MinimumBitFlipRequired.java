@@ -29,9 +29,8 @@ class MinimumBitFlipRequired
 	    
 	    int count=0;
 	    while(num>0){
-	       int x=num%2;
-	       if(x==1) count++;
-	       num=num/2;
+	       count += num & 1;
+	       num >>=1;
 	    }
 	    
 	    return count;
