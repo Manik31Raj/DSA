@@ -11,7 +11,7 @@ Structured collection of DSA problems with Java solutions.
 | 3 | BitTricks | [View Code](./BIT_MANIPULATION/BitTricks.java) | [View Notes](./BIT_MANIPULATION/BitTricks.md) |
 | 4 | MinimumBitFlipRequired | [View Code](./BIT_MANIPULATION/MinimumBitFlipRequired.java) | [View Notes](./BIT_MANIPULATION/MinimumBitFlipRequired.md) |
 | 5 | PowerSet | [View Code](./BIT_MANIPULATION/PowerSet.java) | [View Notes](./BIT_MANIPULATION/PowerSet.md) |
-| 6 | SingleNumber | [View Code](./BIT_MANIPULATION/SingleNumber.java) | — |
+| 6 | SingleNumber | [View Code](./BIT_MANIPULATION/SingleNumber.java) | [View Notes](./BIT_MANIPULATION/SingleNumber.md) |
 
 ## 📂 GRAPH
 
