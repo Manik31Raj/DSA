@@ -13,6 +13,12 @@ Structured collection of DSA problems with Java solutions.
 | 5 | PowerSet | [View Code](./BIT_MANIPULATION/PowerSet.java) | [View Notes](./BIT_MANIPULATION/PowerSet.md) |
 | 6 | SingleNumber | [View Code](./BIT_MANIPULATION/SingleNumber.java) | [View Notes](./BIT_MANIPULATION/SingleNumber.md) |
 
+## 📂 DP
+
+| S.No | Problem | Code | Explanation |
+|------|--------|------|------------|
+| 1 | fibonacci | [View Code](./DP/fibonacci.java) | — |
+
 ## 📂 GRAPH
 
 | S.No | Problem | Code | Explanation |
