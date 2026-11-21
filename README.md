@@ -8,7 +8,7 @@ Structured collection of DSA problems with Java solutions.
 |------|--------|------|------------|
 | 1 | BubbleSort | [View Code](./ALGORITHM/BubbleSort.java) | [View Notes](./ALGORITHM/BubbleSort.md) |
 | 2 | SelectionSort | [View Code](./ALGORITHM/SelectionSort.java) | [View Notes](./ALGORITHM/SelectionSort.md) |
-| 3 | InsertionSort | [View Code](./ALGORITHM/InsertionSort.java) | — |
+| 3 | InsertionSort | [View Code](./ALGORITHM/InsertionSort.java) | [View Notes](./ALGORITHM/InsertionSort.md) |
 
 ## 📂 BIT_MANIPULATION
 
