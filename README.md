@@ -2,6 +2,12 @@
 
 Structured collection of DSA problems with Java solutions.
 
+## 📂 ALGORITHM
+
+| S.No | Problem | Code | Explanation |
+|------|--------|------|------------|
+| 1 | BubbleSort | [View Code](./ALGORITHM/BubbleSort.java) | — |
+
 ## 📂 BIT_MANIPULATION
 
 | S.No | Problem | Code | Explanation |
